@@ -1,0 +1,226 @@
+{
+ "domain_enrichment": {
+  "L": {
+   "obs": {
+    "RdRp": 86,
+    "PRNTase": 28,
+    "CD": 23,
+    "MTase": 32,
+    "CTD": 13
+   },
+   "expected": [
+    78.6,
+    39.2,
+    24.8,
+    26.1,
+    13.3
+   ],
+   "sites_per_1k": {
+    "RdRp": 88.75,
+    "PRNTase": 57.97,
+    "CD": 75.16,
+    "MTase": 99.38,
+    "CTD": 79.27
+   },
+   "chi2": 112.54,
+   "p": 2.088905454993845e-23
+  },
+  "P": {
+   "obs": {
+    "NTD_disordered": 132,
+    "OD": 6,
+    "OD-XD_linker": 6,
+    "XD": 10
+   },
+   "expected": [
+    101.9,
+    23.7,
+    15.9,
+    12.6
+   ],
+   "sites_per_1k": {
+    "NTD_disordered": 281.45,
+    "OD": 55.05,
+    "OD-XD_linker": 82.19,
+    "XD": 172.41
+   },
+   "chi2": 404.05,
+   "p": 2.93402513119956e-87
+  },
+  "N": {
+   "obs": {
+    "core": 41,
+    "tail_disordered": 27
+   },
+   "expected": [
+    51.8,
+    16.2
+   ],
+   "sites_per_1k": {
+    "core": 101.23,
+    "tail_disordered": 212.6
+   },
+   "chi2": 4.97,
+   "p": 0.025781877777472546
+  }
+ },
+ "rsa_enrichment": {
+  "L": {
+   "n_var_modeled": 148,
+   "median_rsa_variable": 0.1900091486359571,
+   "n_modeled": 2020,
+   "median_rsa_invariant": 0.1002789493441954,
+   "mannwhitney_p_greater": 0.00012827544281682822,
+   "surface_fisher_odds": 1.728187475175427,
+   "surface_fisher_p": 0.002875601865587797,
+   "var_surface_frac": 0.38513513513513514,
+   "inv_surface_frac": 0.266025641025641
+  },
+  "P": {
+   "n_var_modeled": 17,
+   "median_rsa_variable": 0.2500559947803106,
+   "n_modeled": 195,
+   "median_rsa_invariant": 0.2185191318872145,
+   "mannwhitney_p_greater": 0.5669809280236567,
+   "surface_fisher_odds": 1.3472222222222223,
+   "surface_fisher_p": 0.6162617776326735,
+   "var_surface_frac": 0.5294117647058824,
+   "inv_surface_frac": 0.4550561797752809
+  },
+  "N": {
+   "n_var_modeled": 31,
+   "median_rsa_variable": 0.16842102151838909,
+   "n_modeled": 315,
+   "median_rsa_invariant": 0.1404379282350337,
+   "mannwhitney_p_greater": 0.4582098529896483,
+   "surface_fisher_odds": 1.5389185977421271,
+   "surface_fisher_p": 0.3239396257314381,
+   "var_surface_frac": 0.45161290322580644,
+   "inv_surface_frac": 0.3485915492957746
+  }
+ },
+ "host_counts": {
+  "unknown": 16,
+  "human": 81,
+  "bat": 27,
+  "pig": 4,
+  "other": 1
+ },
+ "host_exclusive_significant": {
+  "L": [
+   {
+    "site": 1748,
+    "ref": "I",
+    "human": 15,
+    "bat": 0,
+    "fisher_p": 0.02013,
+    "direction": "human"
+   }
+  ],
+  "P": [
+   {
+    "site": 81,
+    "ref": "T",
+    "human": 0,
+    "bat": 11,
+    "fisher_p": 0.0,
+    "direction": "bat"
+   },
+   {
+    "site": 312,
+    "ref": "K",
+    "human": 0,
+    "bat": 11,
+    "fisher_p": 0.0,
+    "direction": "bat"
+   },
+   {
+    "site": 315,
+    "ref": "A",
+    "human": 0,
+    "bat": 3,
+    "fisher_p": 0.01433,
+    "direction": "bat"
+   }
+  ],
+  "N": []
+ },
+ "temporal_L": {
+  "n": 113,
+  "spearman_rho": -0.010773704551959631,
+  "p": 0.9098276374565624
+ },
+ "lineage_L": {
+  "n": 117,
+  "sites": 182,
+  "median_dist": 34.0,
+  "near_ref_hosts": {
+   "unknown": 7,
+   "Malaysia": 0,
+   "human": 41,
+   "India": 0,
+   "Bangladesh: ": 0,
+   "India: Kozhi": 0,
+   "pig": 4,
+   "other": 1,
+   "Bangladesh": 0,
+   "bat": 12,
+   "Cambodia": 0,
+   "India: Thodu": 0,
+   "USA: MD": 0,
+   "India: Keral": 0,
+   "India: Bihar": 0,
+   "India: UP St": 0
+  },
+  "far_hosts": {
+   "human": 36,
+   "Bangladesh": 0,
+   "Bangladesh: ": 0,
+   "India: Kozhi": 0,
+   "bat": 15,
+   "India: Thodu": 0,
+   "Thailand": 0,
+   "India: Keral": 0,
+   "unknown": 1
+  }
+ },
+ "country_by_host": {
+  "unknown": [
+   "Bangladesh",
+   "Malaysia",
+   "USA: MD",
+   "unknown"
+  ],
+  "human": [
+   "Bangladesh",
+   "Bangladesh: Bhola",
+   "Bangladesh: Chuadanga",
+   "Bangladesh: Faridpur",
+   "Bangladesh: Jhalokathi",
+   "Bangladesh: Khulna",
+   "Bangladesh: Manikgonj",
+   "Bangladesh: Naogaon",
+   "Bangladesh: Narshingdi",
+   "Bangladesh: Natore",
+   "Bangladesh: Pabna",
+   "Bangladesh: Rajbari"
+  ],
+  "bat": [
+   "Bangladesh: Joypurhat",
+   "Bangladesh: Raypur, Maniganj",
+   "Bangladesh: Sylhet",
+   "Cambodia",
+   "India: Bihar,Patana",
+   "India: Kerala,Waynad",
+   "India: Thodupuza village, Idukki district, Kerala State",
+   "India: UP State",
+   "Thailand"
+  ],
+  "pig": [
+   "Malaysia"
+  ],
+  "other": [
+   "Malaysia"
+  ]
+ }
+}

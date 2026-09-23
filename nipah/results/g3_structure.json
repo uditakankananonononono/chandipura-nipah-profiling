@@ -1,0 +1,4746 @@
+{
+ "structures": {
+  "L": "9GJU chain A",
+  "P": "9GJU chain B + 4N5B/6EB9",
+  "N": "4CO6"
+ },
+ "domain_maps": {
+  "L": [
+   [
+    1,
+    969,
+    "RdRp"
+   ],
+   [
+    970,
+    1452,
+    "PRNTase"
+   ],
+   [
+    1453,
+    1758,
+    "CD"
+   ],
+   [
+    1759,
+    2080,
+    "MTase"
+   ],
+   [
+    2081,
+    2244,
+    "CTD"
+   ]
+  ],
+  "P": [
+   [
+    1,
+    469,
+    "NTD_disordered"
+   ],
+   [
+    470,
+    578,
+    "OD"
+   ],
+   [
+    579,
+    651,
+    "OD-XD_linker"
+   ],
+   [
+    652,
+    709,
+    "XD"
+   ]
+  ],
+  "N": [
+   [
+    1,
+    405,
+    "core"
+   ],
+   [
+    406,
+    532,
+    "tail_disordered"
+   ]
+  ]
+ },
+ "rsa_normalization": "SASA/210 fixed max (documented)",
+ "proteins": {
+  "L": [
+   {
+    "site": 3,
+    "ref": "D",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 4,
+    "ref": "E",
+    "n_carriers": 4,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 9,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.198,
+    "location": "core",
+    "dist_to_GDNE_A": 42.5
+   },
+   {
+    "site": 21,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.039,
+    "location": "core",
+    "dist_to_GDNE_A": 27.0
+   },
+   {
+    "site": 22,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.06,
+    "location": "core",
+    "dist_to_GDNE_A": 28.1
+   },
+   {
+    "site": 24,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.028,
+    "location": "core",
+    "dist_to_GDNE_A": 32.3
+   },
+   {
+    "site": 36,
+    "ref": "R",
+    "n_carriers": 95,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.989,
+    "location": "surface",
+    "dist_to_GDNE_A": 45.7
+   },
+   {
+    "site": 71,
+    "ref": "D",
+    "n_carriers": 100,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.371,
+    "location": "surface",
+    "dist_to_GDNE_A": 52.6
+   },
+   {
+    "site": 77,
+    "ref": "I",
+    "n_carriers": 100,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.031,
+    "location": "core",
+    "dist_to_GDNE_A": 53.5
+   },
+   {
+    "site": 83,
+    "ref": "F",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.137,
+    "location": "core",
+    "dist_to_GDNE_A": 48.6
+   },
+   {
+    "site": 89,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.029,
+    "location": "core",
+    "dist_to_GDNE_A": 30.9
+   },
+   {
+    "site": 91,
+    "ref": "C",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.037,
+    "location": "core",
+    "dist_to_GDNE_A": 35.7
+   },
+   {
+    "site": 93,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.284,
+    "location": "surface",
+    "dist_to_GDNE_A": 34.8
+   },
+   {
+    "site": 94,
+    "ref": "I",
+    "n_carriers": 59,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.281,
+    "location": "surface",
+    "dist_to_GDNE_A": 37.8
+   },
+   {
+    "site": 96,
+    "ref": "F",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.012,
+    "location": "core",
+    "dist_to_GDNE_A": 34.5
+   },
+   {
+    "site": 98,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.035,
+    "location": "core",
+    "dist_to_GDNE_A": 40.4
+   },
+   {
+    "site": 100,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.028,
+    "location": "core",
+    "dist_to_GDNE_A": 46.0
+   },
+   {
+    "site": 105,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.261,
+    "location": "surface",
+    "dist_to_GDNE_A": 49.2
+   },
+   {
+    "site": 112,
+    "ref": "K",
+    "n_carriers": 33,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.556,
+    "location": "surface",
+    "dist_to_GDNE_A": 47.3
+   },
+   {
+    "site": 122,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.063,
+    "location": "core",
+    "dist_to_GDNE_A": 45.1
+   },
+   {
+    "site": 125,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.012,
+    "location": "core",
+    "dist_to_GDNE_A": 44.0
+   },
+   {
+    "site": 140,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.273,
+    "location": "surface",
+    "dist_to_GDNE_A": 44.2
+   },
+   {
+    "site": 152,
+    "ref": "R",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.638,
+    "location": "surface",
+    "dist_to_GDNE_A": 44.0
+   },
+   {
+    "site": 167,
+    "ref": "Y",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.039,
+    "location": "core",
+    "dist_to_GDNE_A": 38.5
+   },
+   {
+    "site": 185,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.035,
+    "location": "core",
+    "dist_to_GDNE_A": 41.3
+   },
+   {
+    "site": 186,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.246,
+    "location": "core",
+    "dist_to_GDNE_A": 44.9
+   },
+   {
+    "site": 190,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.408,
+    "location": "surface",
+    "dist_to_GDNE_A": 48.0
+   },
+   {
+    "site": 191,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.69,
+    "location": "surface",
+    "dist_to_GDNE_A": 51.1
+   },
+   {
+    "site": 205,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.182,
+    "location": "core",
+    "dist_to_GDNE_A": 51.1
+   },
+   {
+    "site": 208,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.0,
+    "location": "core",
+    "dist_to_GDNE_A": 46.3
+   },
+   {
+    "site": 210,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.006,
+    "location": "core",
+    "dist_to_GDNE_A": 44.0
+   },
+   {
+    "site": 223,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.491,
+    "location": "surface",
+    "dist_to_GDNE_A": 47.8
+   },
+   {
+    "site": 252,
+    "ref": "V",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.017,
+    "location": "core",
+    "dist_to_GDNE_A": 31.3
+   },
+   {
+    "site": 278,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.437,
+    "location": "surface",
+    "dist_to_GDNE_A": 34.3
+   },
+   {
+    "site": 325,
+    "ref": "E",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.551,
+    "location": "surface",
+    "dist_to_GDNE_A": 29.8
+   },
+   {
+    "site": 332,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.651,
+    "location": "surface",
+    "dist_to_GDNE_A": 36.6
+   },
+   {
+    "site": 420,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.228,
+    "location": "core",
+    "dist_to_GDNE_A": 31.0
+   },
+   {
+    "site": 422,
+    "ref": "A",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.427,
+    "location": "surface",
+    "dist_to_GDNE_A": 36.0
+   },
+   {
+    "site": 429,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.265,
+    "location": "surface",
+    "dist_to_GDNE_A": 33.6
+   },
+   {
+    "site": 508,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.073,
+    "location": "core",
+    "dist_to_GDNE_A": 31.2
+   },
+   {
+    "site": 514,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.492,
+    "location": "surface",
+    "dist_to_GDNE_A": 35.1
+   },
+   {
+    "site": 528,
+    "ref": "A",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.209,
+    "location": "core",
+    "dist_to_GDNE_A": 30.1
+   },
+   {
+    "site": 533,
+    "ref": "E",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.589,
+    "location": "surface",
+    "dist_to_GDNE_A": 32.2
+   },
+   {
+    "site": 621,
+    "ref": "R",
+    "n_carriers": 100,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 623,
+    "ref": "F",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 625,
+    "ref": "Y",
+    "n_carriers": 100,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 630,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 632,
+    "ref": "N",
+    "n_carriers": 31,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 633,
+    "ref": "V",
+    "n_carriers": 16,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 634,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 636,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 639,
+    "ref": "N",
+    "n_carriers": 32,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 640,
+    "ref": "S",
+    "n_carriers": 100,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 642,
+    "ref": "N",
+    "n_carriers": 78,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 652,
+    "ref": "C",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 655,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 658,
+    "ref": "H",
+    "n_carriers": 92,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 661,
+    "ref": "M",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 662,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 665,
+    "ref": "T",
+    "n_carriers": 32,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 686,
+    "ref": "N",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 699,
+    "ref": "A",
+    "n_carriers": 5,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 703,
+    "ref": "R",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "location": "unmodeled"
+   },
+   {
+    "site": 714,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.114,
+    "location": "core",
+    "dist_to_GDNE_A": 20.5
+   },
+   {
+    "site": 759,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.029,
+    "location": "core",
+    "dist_to_GDNE_A": 21.1
+   },
+   {
+    "site": 760,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.141,
+    "location": "core",
+    "dist_to_GDNE_A": 23.1
+   },
+   {
+    "site": 762,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.045,
+    "location": "core",
+    "dist_to_GDNE_A": 25.9
+   },
+   {
+    "site": 763,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.015,
+    "location": "core",
+    "dist_to_GDNE_A": 25.8
+   },
+   {
+    "site": 769,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.115,
+    "location": "core",
+    "dist_to_GDNE_A": 30.3
+   },
+   {
+    "site": 771,
+    "ref": "C",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.054,
+    "location": "core",
+    "dist_to_GDNE_A": 30.6
+   },
+   {
+    "site": 772,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.031,
+    "location": "core",
+    "dist_to_GDNE_A": 33.0
+   },
+   {
+    "site": 778,
+    "ref": "H",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.335,
+    "location": "surface",
+    "dist_to_GDNE_A": 39.1
+   },
+   {
+    "site": 779,
+    "ref": "M",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.204,
+    "location": "core",
+    "dist_to_GDNE_A": 37.8
+   },
+   {
+    "site": 783,
+    "ref": "K",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.627,
+    "location": "surface",
+    "dist_to_GDNE_A": 35.0
+   },
+   {
+    "site": 785,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.207,
+    "location": "core",
+    "dist_to_GDNE_A": 32.5
+   },
+   {
+    "site": 787,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.59,
+    "location": "surface",
+    "dist_to_GDNE_A": 29.0
+   },
+   {
+    "site": 801,
+    "ref": "Y",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.026,
+    "location": "core",
+    "dist_to_GDNE_A": 11.5
+   },
+   {
+    "site": 802,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.036,
+    "location": "core",
+    "dist_to_GDNE_A": 10.3
+   },
+   {
+    "site": 807,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.0,
+    "location": "core",
+    "dist_to_GDNE_A": 5.3
+   },
+   {
+    "site": 828,
+    "ref": "I",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.0,
+    "location": "core",
+    "dist_to_GDNE_A": 6.1
+   },
+   {
+    "site": 836,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.0,
+    "location": "core",
+    "dist_to_GDNE_A": 6.1
+   },
+   {
+    "site": 877,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.138,
+    "location": "core",
+    "dist_to_GDNE_A": 9.6
+   },
+   {
+    "site": 890,
+    "ref": "I",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.114,
+    "location": "core",
+    "dist_to_GDNE_A": 8.8
+   },
+   {
+    "site": 909,
+    "ref": "M",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.006,
+    "location": "core",
+    "dist_to_GDNE_A": 26.1
+   },
+   {
+    "site": 931,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.0,
+    "location": "core",
+    "dist_to_GDNE_A": 31.4
+   },
+   {
+    "site": 952,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "RdRp",
+    "rsa": 0.012,
+    "location": "core",
+    "dist_to_GDNE_A": 38.9
+   },
+   {
+    "site": 977,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.184,
+    "location": "core",
+    "dist_to_GDNE_A": 53.6
+   },
+   {
+    "site": 1028,
+    "ref": "D",
+    "n_carriers": 4,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.484,
+    "location": "surface",
+    "dist_to_GDNE_A": 51.1
+   },
+   {
+    "site": 1047,
+    "ref": "D",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.659,
+    "location": "surface",
+    "dist_to_GDNE_A": 49.8
+   },
+   {
+    "site": 1078,
+    "ref": "R",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.401,
+    "location": "surface",
+    "dist_to_GDNE_A": 41.6
+   },
+   {
+    "site": 1154,
+    "ref": "L",
+    "n_carriers": 98,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "PRNTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1155,
+    "ref": "Q",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1157,
+    "ref": "K",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "PRNTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1181,
+    "ref": "R",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.62,
+    "location": "surface",
+    "dist_to_GDNE_A": 60.0
+   },
+   {
+    "site": 1203,
+    "ref": "M",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.01,
+    "location": "core",
+    "dist_to_GDNE_A": 50.4
+   },
+   {
+    "site": 1208,
+    "ref": "A",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.012,
+    "location": "core",
+    "dist_to_GDNE_A": 52.4
+   },
+   {
+    "site": 1210,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.295,
+    "location": "surface",
+    "dist_to_GDNE_A": 56.1
+   },
+   {
+    "site": 1216,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.011,
+    "location": "core",
+    "dist_to_GDNE_A": 41.5
+   },
+   {
+    "site": 1219,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "unknown"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.084,
+    "location": "core",
+    "dist_to_GDNE_A": 41.7
+   },
+   {
+    "site": 1233,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.133,
+    "location": "core",
+    "dist_to_GDNE_A": 49.0
+   },
+   {
+    "site": 1262,
+    "ref": "R",
+    "n_carriers": 78,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.368,
+    "location": "surface",
+    "dist_to_GDNE_A": 27.2
+   },
+   {
+    "site": 1287,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.163,
+    "location": "core",
+    "dist_to_GDNE_A": 35.7
+   },
+   {
+    "site": 1288,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.459,
+    "location": "surface",
+    "dist_to_GDNE_A": 33.0
+   },
+   {
+    "site": 1322,
+    "ref": "A",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.0,
+    "location": "core",
+    "dist_to_GDNE_A": 41.6
+   },
+   {
+    "site": 1323,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.1,
+    "location": "core",
+    "dist_to_GDNE_A": 43.5
+   },
+   {
+    "site": 1336,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.063,
+    "location": "core",
+    "dist_to_GDNE_A": 39.5
+   },
+   {
+    "site": 1344,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1372,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.04,
+    "location": "core",
+    "dist_to_GDNE_A": 31.6
+   },
+   {
+    "site": 1382,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.859,
+    "location": "surface",
+    "dist_to_GDNE_A": 54.4
+   },
+   {
+    "site": 1411,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.547,
+    "location": "surface",
+    "dist_to_GDNE_A": 30.1
+   },
+   {
+    "site": 1435,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.665,
+    "location": "surface",
+    "dist_to_GDNE_A": 49.9
+   },
+   {
+    "site": 1436,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.212,
+    "location": "core",
+    "dist_to_GDNE_A": 50.5
+   },
+   {
+    "site": 1440,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.411,
+    "location": "surface",
+    "dist_to_GDNE_A": 53.3
+   },
+   {
+    "site": 1452,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "PRNTase",
+    "rsa": 0.344,
+    "location": "surface",
+    "dist_to_GDNE_A": 43.0
+   },
+   {
+    "site": 1462,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.119,
+    "location": "core",
+    "dist_to_GDNE_A": 38.0
+   },
+   {
+    "site": 1479,
+    "ref": "R",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.366,
+    "location": "surface",
+    "dist_to_GDNE_A": 45.3
+   },
+   {
+    "site": 1494,
+    "ref": "V",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "CD",
+    "rsa": 0.017,
+    "location": "core",
+    "dist_to_GDNE_A": 43.6
+   },
+   {
+    "site": 1498,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.0,
+    "location": "core",
+    "dist_to_GDNE_A": 38.0
+   },
+   {
+    "site": 1536,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.356,
+    "location": "surface",
+    "dist_to_GDNE_A": 43.9
+   },
+   {
+    "site": 1539,
+    "ref": "P",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.023,
+    "location": "core",
+    "dist_to_GDNE_A": 44.8
+   },
+   {
+    "site": 1540,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.45,
+    "location": "surface",
+    "dist_to_GDNE_A": 47.0
+   },
+   {
+    "site": 1541,
+    "ref": "L",
+    "n_carriers": 4,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.247,
+    "location": "core",
+    "dist_to_GDNE_A": 46.2
+   },
+   {
+    "site": 1551,
+    "ref": "S",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "CD",
+    "rsa": 0.016,
+    "location": "core",
+    "dist_to_GDNE_A": 40.7
+   },
+   {
+    "site": 1558,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.04,
+    "location": "core",
+    "dist_to_GDNE_A": 40.6
+   },
+   {
+    "site": 1575,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "CD",
+    "rsa": 0.13,
+    "location": "core",
+    "dist_to_GDNE_A": 38.8
+   },
+   {
+    "site": 1577,
+    "ref": "V",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "CD",
+    "rsa": 0.017,
+    "location": "core",
+    "dist_to_GDNE_A": 34.8
+   },
+   {
+    "site": 1579,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "CD",
+    "rsa": 0.458,
+    "location": "surface",
+    "dist_to_GDNE_A": 32.8
+   },
+   {
+    "site": 1587,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "CD",
+    "rsa": 0.062,
+    "location": "core",
+    "dist_to_GDNE_A": 29.5
+   },
+   {
+    "site": 1645,
+    "ref": "S",
+    "n_carriers": 110,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "CD",
+    "rsa": 0.136,
+    "location": "core",
+    "dist_to_GDNE_A": 49.2
+   },
+   {
+    "site": 1658,
+    "ref": "S",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "CD",
+    "rsa": 0.3,
+    "location": "surface",
+    "dist_to_GDNE_A": 39.6
+   },
+   {
+    "site": 1665,
+    "ref": "T",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.114,
+    "location": "core",
+    "dist_to_GDNE_A": 43.9
+   },
+   {
+    "site": 1673,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.012,
+    "location": "core",
+    "dist_to_GDNE_A": 49.8
+   },
+   {
+    "site": 1674,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.01,
+    "location": "core",
+    "dist_to_GDNE_A": 48.1
+   },
+   {
+    "site": 1707,
+    "ref": "V",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "CD",
+    "rsa": 0.514,
+    "location": "surface",
+    "dist_to_GDNE_A": 63.5
+   },
+   {
+    "site": 1722,
+    "ref": "V",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CD",
+    "rsa": 0.075,
+    "location": "core",
+    "dist_to_GDNE_A": 44.4
+   },
+   {
+    "site": 1748,
+    "ref": "I",
+    "n_carriers": 16,
+    "host_groups": [
+     "human",
+     "unknown"
+    ],
+    "domain": "CD",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1753,
+    "ref": "M",
+    "n_carriers": 1,
+    "host_groups": [
+     "unknown"
+    ],
+    "domain": "CD",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1763,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1776,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.201,
+    "location": "core",
+    "dist_to_GDNE_A": 71.2
+   },
+   {
+    "site": 1778,
+    "ref": "Y",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.291,
+    "location": "surface",
+    "dist_to_GDNE_A": 72.8
+   },
+   {
+    "site": 1791,
+    "ref": "A",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "MTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1793,
+    "ref": "K",
+    "n_carriers": 4,
+    "host_groups": [
+     "other",
+     "pig"
+    ],
+    "domain": "MTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1801,
+    "ref": "R",
+    "n_carriers": 100,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "MTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 1842,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.011,
+    "location": "core",
+    "dist_to_GDNE_A": 54.1
+   },
+   {
+    "site": 1855,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.201,
+    "location": "core",
+    "dist_to_GDNE_A": 64.5
+   },
+   {
+    "site": 1871,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.381,
+    "location": "surface",
+    "dist_to_GDNE_A": 33.8
+   },
+   {
+    "site": 1874,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.035,
+    "location": "core",
+    "dist_to_GDNE_A": 32.9
+   },
+   {
+    "site": 1875,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.109,
+    "location": "core",
+    "dist_to_GDNE_A": 30.2
+   },
+   {
+    "site": 1882,
+    "ref": "F",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.155,
+    "location": "core",
+    "dist_to_GDNE_A": 47.1
+   },
+   {
+    "site": 1894,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.473,
+    "location": "surface",
+    "dist_to_GDNE_A": 62.3
+   },
+   {
+    "site": 1896,
+    "ref": "T",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "MTase",
+    "rsa": 0.249,
+    "location": "core",
+    "dist_to_GDNE_A": 58.6
+   },
+   {
+    "site": 1897,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.365,
+    "location": "surface",
+    "dist_to_GDNE_A": 61.7
+   },
+   {
+    "site": 1900,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.53,
+    "location": "surface",
+    "dist_to_GDNE_A": 57.0
+   },
+   {
+    "site": 1950,
+    "ref": "E",
+    "n_carriers": 5,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.497,
+    "location": "surface",
+    "dist_to_GDNE_A": 53.1
+   },
+   {
+    "site": 1954,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.201,
+    "location": "core",
+    "dist_to_GDNE_A": 54.2
+   },
+   {
+    "site": 1967,
+    "ref": "M",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.086,
+    "location": "core",
+    "dist_to_GDNE_A": 65.4
+   },
+   {
+    "site": 1990,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.233,
+    "location": "core",
+    "dist_to_GDNE_A": 66.7
+   },
+   {
+    "site": 2001,
+    "ref": "V",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.023,
+    "location": "core",
+    "dist_to_GDNE_A": 68.2
+   },
+   {
+    "site": 2003,
+    "ref": "F",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.006,
+    "location": "core",
+    "dist_to_GDNE_A": 66.3
+   },
+   {
+    "site": 2004,
+    "ref": "P",
+    "n_carriers": 5,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.01,
+    "location": "core",
+    "dist_to_GDNE_A": 64.9
+   },
+   {
+    "site": 2018,
+    "ref": "C",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "MTase",
+    "rsa": 0.0,
+    "location": "core",
+    "dist_to_GDNE_A": 67.8
+   },
+   {
+    "site": 2027,
+    "ref": "V",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "MTase",
+    "rsa": 0.052,
+    "location": "core",
+    "dist_to_GDNE_A": 64.1
+   },
+   {
+    "site": 2031,
+    "ref": "K",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "MTase",
+    "rsa": 0.46,
+    "location": "surface",
+    "dist_to_GDNE_A": 62.9
+   },
+   {
+    "site": 2037,
+    "ref": "N",
+    "n_carriers": 78,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "MTase",
+    "rsa": 0.524,
+    "location": "surface",
+    "dist_to_GDNE_A": 62.5
+   },
+   {
+    "site": 2039,
+    "ref": "H",
+    "n_carriers": 1,
+    "host_groups": [
+     "unknown"
+    ],
+    "domain": "MTase",
+    "location": "unmodeled"
+   },
+   {
+    "site": 2057,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.196,
+    "location": "core",
+    "dist_to_GDNE_A": 71.6
+   },
+   {
+    "site": 2064,
+    "ref": "D",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "MTase",
+    "rsa": 0.369,
+    "location": "surface",
+    "dist_to_GDNE_A": 74.1
+   },
+   {
+    "site": 2071,
+    "ref": "Q",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "MTase",
+    "rsa": 0.626,
+    "location": "surface",
+    "dist_to_GDNE_A": 73.3
+   },
+   {
+    "site": 2080,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "MTase",
+    "rsa": 0.437,
+    "location": "surface",
+    "dist_to_GDNE_A": 66.8
+   },
+   {
+    "site": 2084,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CTD",
+    "rsa": 0.23,
+    "location": "core",
+    "dist_to_GDNE_A": 69.0
+   },
+   {
+    "site": 2087,
+    "ref": "Q",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "CTD",
+    "rsa": 0.387,
+    "location": "surface",
+    "dist_to_GDNE_A": 65.6
+   },
+   {
+    "site": 2091,
+    "ref": "Q",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "CTD",
+    "rsa": 0.672,
+    "location": "surface",
+    "dist_to_GDNE_A": 63.8
+   },
+   {
+    "site": 2113,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CTD",
+    "rsa": 0.385,
+    "location": "surface",
+    "dist_to_GDNE_A": 56.8
+   },
+   {
+    "site": 2132,
+    "ref": "F",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "CTD",
+    "rsa": 0.427,
+    "location": "surface",
+    "dist_to_GDNE_A": 41.1
+   },
+   {
+    "site": 2135,
+    "ref": "N",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CTD",
+    "location": "unmodeled"
+   },
+   {
+    "site": 2153,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "pig"
+    ],
+    "domain": "CTD",
+    "rsa": 0.114,
+    "location": "core",
+    "dist_to_GDNE_A": 38.6
+   },
+   {
+    "site": 2159,
+    "ref": "C",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "CTD",
+    "rsa": 0.231,
+    "location": "core",
+    "dist_to_GDNE_A": 43.1
+   },
+   {
+    "site": 2172,
+    "ref": "F",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CTD",
+    "rsa": 0.196,
+    "location": "core",
+    "dist_to_GDNE_A": 63.1
+   },
+   {
+    "site": 2183,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "CTD",
+    "rsa": 0.04,
+    "location": "core",
+    "dist_to_GDNE_A": 57.0
+   },
+   {
+    "site": 2203,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "CTD",
+    "rsa": 0.705,
+    "location": "surface",
+    "dist_to_GDNE_A": 61.0
+   },
+   {
+    "site": 2216,
+    "ref": "N",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "CTD",
+    "rsa": 0.255,
+    "location": "surface",
+    "dist_to_GDNE_A": 49.2
+   },
+   {
+    "site": 2219,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "CTD",
+    "rsa": 0.53,
+    "location": "surface",
+    "dist_to_GDNE_A": 48.4
+   }
+  ],
+  "P": [
+   {
+    "site": 41,
+    "ref": "Q",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 52,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 53,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 56,
+    "ref": "S",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 58,
+    "ref": "Q",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 59,
+    "ref": "V",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 61,
+    "ref": "G",
+    "n_carriers": 24,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 64,
+    "ref": "S",
+    "n_carriers": 43,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 69,
+    "ref": "D",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 70,
+    "ref": "V",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 71,
+    "ref": "E",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 73,
+    "ref": "R",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 74,
+    "ref": "N",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 79,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 81,
+    "ref": "T",
+    "n_carriers": 11,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 82,
+    "ref": "S",
+    "n_carriers": 4,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 105,
+    "ref": "I",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 112,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 138,
+    "ref": "D",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 139,
+    "ref": "Y",
+    "n_carriers": 101,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 140,
+    "ref": "T",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 144,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 147,
+    "ref": "N",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 156,
+    "ref": "M",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 158,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 159,
+    "ref": "Y",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 167,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 173,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 179,
+    "ref": "N",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 183,
+    "ref": "T",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 189,
+    "ref": "T",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 191,
+    "ref": "V",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 195,
+    "ref": "L",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 196,
+    "ref": "R",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 199,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 200,
+    "ref": "D",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 201,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 203,
+    "ref": "K",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 218,
+    "ref": "K",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 219,
+    "ref": "E",
+    "n_carriers": 25,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 223,
+    "ref": "G",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 225,
+    "ref": "Q",
+    "n_carriers": 25,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 226,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 227,
+    "ref": "S",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 228,
+    "ref": "R",
+    "n_carriers": 40,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 230,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 241,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 247,
+    "ref": "Q",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 261,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 263,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 268,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 269,
+    "ref": "D",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 271,
+    "ref": "E",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 273,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 274,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 275,
+    "ref": "V",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 276,
+    "ref": "G",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 277,
+    "ref": "G",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 278,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 280,
+    "ref": "N",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 283,
+    "ref": "I",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 285,
+    "ref": "R",
+    "n_carriers": 62,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 286,
+    "ref": "T",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 287,
+    "ref": "I",
+    "n_carriers": 26,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 288,
+    "ref": "E",
+    "n_carriers": 5,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 292,
+    "ref": "I",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 293,
+    "ref": "R",
+    "n_carriers": 4,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 294,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 295,
+    "ref": "N",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 296,
+    "ref": "L",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 297,
+    "ref": "Q",
+    "n_carriers": 7,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 298,
+    "ref": "A",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 300,
+    "ref": "D",
+    "n_carriers": 94,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 303,
+    "ref": "S",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 304,
+    "ref": "T",
+    "n_carriers": 106,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 306,
+    "ref": "V",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 309,
+    "ref": "A",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 310,
+    "ref": "G",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 311,
+    "ref": "P",
+    "n_carriers": 25,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 312,
+    "ref": "K",
+    "n_carriers": 11,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 314,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 315,
+    "ref": "A",
+    "n_carriers": 3,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 316,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 318,
+    "ref": "E",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 319,
+    "ref": "E",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 320,
+    "ref": "P",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 321,
+    "ref": "P",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 327,
+    "ref": "M",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 335,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 342,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 343,
+    "ref": "R",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 349,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 351,
+    "ref": "L",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 354,
+    "ref": "C",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 357,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 358,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 363,
+    "ref": "P",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 365,
+    "ref": "H",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 366,
+    "ref": "W",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 367,
+    "ref": "S",
+    "n_carriers": 77,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 368,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 370,
+    "ref": "R",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 371,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 372,
+    "ref": "I",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 373,
+    "ref": "S",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 377,
+    "ref": "T",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 378,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 380,
+    "ref": "V",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 381,
+    "ref": "N",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 382,
+    "ref": "G",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 383,
+    "ref": "A",
+    "n_carriers": 6,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 384,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 386,
+    "ref": "T",
+    "n_carriers": 25,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 388,
+    "ref": "D",
+    "n_carriers": 74,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 389,
+    "ref": "R",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 392,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 410,
+    "ref": "A",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 420,
+    "ref": "V",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 421,
+    "ref": "P",
+    "n_carriers": 14,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 425,
+    "ref": "S",
+    "n_carriers": 7,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 438,
+    "ref": "Q",
+    "n_carriers": 5,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 447,
+    "ref": "N",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 449,
+    "ref": "Q",
+    "n_carriers": 26,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 452,
+    "ref": "A",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 453,
+    "ref": "S",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 455,
+    "ref": "A",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 458,
+    "ref": "E",
+    "n_carriers": 12,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 463,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 464,
+    "ref": "V",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 466,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 467,
+    "ref": "V",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 468,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "NTD_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 471,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "OD",
+    "location": "unmodeled"
+   },
+   {
+    "site": 482,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "OD",
+    "rsa": 0.39,
+    "location": "surface"
+   },
+   {
+    "site": 504,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "OD",
+    "rsa": 0.25,
+    "location": "surface"
+   },
+   {
+    "site": 519,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "OD",
+    "rsa": 0.045,
+    "location": "core"
+   },
+   {
+    "site": 525,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "OD",
+    "rsa": 0.121,
+    "location": "core"
+   },
+   {
+    "site": 526,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "OD",
+    "rsa": 0.017,
+    "location": "core"
+   },
+   {
+    "site": 587,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "OD-XD_linker",
+    "location": "unmodeled"
+   },
+   {
+    "site": 590,
+    "ref": "N",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "OD-XD_linker",
+    "location": "unmodeled"
+   },
+   {
+    "site": 602,
+    "ref": "I",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "OD-XD_linker",
+    "rsa": 0.299,
+    "location": "surface"
+   },
+   {
+    "site": 617,
+    "ref": "F",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "OD-XD_linker",
+    "location": "unmodeled"
+   },
+   {
+    "site": 629,
+    "ref": "A",
+    "n_carriers": 25,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "OD-XD_linker",
+    "location": "unmodeled"
+   },
+   {
+    "site": 635,
+    "ref": "E",
+    "n_carriers": 101,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "OD-XD_linker",
+    "rsa": 0.642,
+    "location": "surface"
+   },
+   {
+    "site": 653,
+    "ref": "V",
+    "n_carriers": 6,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "XD",
+    "rsa": 0.138,
+    "location": "core"
+   },
+   {
+    "site": 655,
+    "ref": "M",
+    "n_carriers": 20,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "XD",
+    "rsa": 0.299,
+    "location": "surface"
+   },
+   {
+    "site": 661,
+    "ref": "R",
+    "n_carriers": 3,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "XD",
+    "rsa": 0.286,
+    "location": "surface"
+   },
+   {
+    "site": 664,
+    "ref": "I",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "XD",
+    "rsa": 0.012,
+    "location": "core"
+   },
+   {
+    "site": 672,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "XD",
+    "rsa": 0.035,
+    "location": "core"
+   },
+   {
+    "site": 674,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "XD",
+    "rsa": 0.265,
+    "location": "surface"
+   },
+   {
+    "site": 676,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "XD",
+    "rsa": 0.661,
+    "location": "surface"
+   },
+   {
+    "site": 683,
+    "ref": "G",
+    "n_carriers": 24,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "XD",
+    "rsa": 0.097,
+    "location": "core"
+   },
+   {
+    "site": 687,
+    "ref": "K",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "XD",
+    "rsa": 0.648,
+    "location": "surface"
+   },
+   {
+    "site": 701,
+    "ref": "V",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "XD",
+    "rsa": 0.0,
+    "location": "core"
+   }
+  ],
+  "N": [
+   {
+    "site": 12,
+    "ref": "R",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 33,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.368,
+    "location": "surface"
+   },
+   {
+    "site": 38,
+    "ref": "F",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.0,
+    "location": "core"
+   },
+   {
+    "site": 49,
+    "ref": "W",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.0,
+    "location": "core"
+   },
+   {
+    "site": 50,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.269,
+    "location": "surface"
+   },
+   {
+    "site": 59,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.006,
+    "location": "core"
+   },
+   {
+    "site": 62,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.427,
+    "location": "surface"
+   },
+   {
+    "site": 67,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.168,
+    "location": "core"
+   },
+   {
+    "site": 85,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.022,
+    "location": "core"
+   },
+   {
+    "site": 86,
+    "ref": "A",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.079,
+    "location": "core"
+   },
+   {
+    "site": 108,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.299,
+    "location": "surface"
+   },
+   {
+    "site": 116,
+    "ref": "R",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 132,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.017,
+    "location": "core"
+   },
+   {
+    "site": 137,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.481,
+    "location": "surface"
+   },
+   {
+    "site": 138,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.358,
+    "location": "surface"
+   },
+   {
+    "site": 139,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "unknown"
+    ],
+    "domain": "core",
+    "rsa": 0.076,
+    "location": "core"
+   },
+   {
+    "site": 152,
+    "ref": "G",
+    "n_carriers": 8,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.279,
+    "location": "surface"
+   },
+   {
+    "site": 162,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.178,
+    "location": "core"
+   },
+   {
+    "site": 188,
+    "ref": "E",
+    "n_carriers": 3,
+    "host_groups": [
+     "human",
+     "unknown"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 191,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.386,
+    "location": "surface"
+   },
+   {
+    "site": 211,
+    "ref": "Q",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.544,
+    "location": "surface"
+   },
+   {
+    "site": 213,
+    "ref": "W",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.0,
+    "location": "core"
+   },
+   {
+    "site": 214,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.063,
+    "location": "core"
+   },
+   {
+    "site": 216,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.299,
+    "location": "surface"
+   },
+   {
+    "site": 221,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.046,
+    "location": "core"
+   },
+   {
+    "site": 222,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.351,
+    "location": "surface"
+   },
+   {
+    "site": 223,
+    "ref": "Q",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.606,
+    "location": "surface"
+   },
+   {
+    "site": 226,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.071,
+    "location": "core"
+   },
+   {
+    "site": 232,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.012,
+    "location": "core"
+   },
+   {
+    "site": 234,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.0,
+    "location": "core"
+   },
+   {
+    "site": 235,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "rsa": 0.032,
+    "location": "core"
+   },
+   {
+    "site": 294,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.0,
+    "location": "core"
+   },
+   {
+    "site": 345,
+    "ref": "M",
+    "n_carriers": 1,
+    "host_groups": [
+     "unknown"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 369,
+    "ref": "H",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.648,
+    "location": "surface"
+   },
+   {
+    "site": 370,
+    "ref": "H",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "rsa": 0.445,
+    "location": "surface"
+   },
+   {
+    "site": 377,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 381,
+    "ref": "R",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 387,
+    "ref": "D",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 395,
+    "ref": "A",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 396,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 399,
+    "ref": "T",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "core",
+    "location": "unmodeled"
+   },
+   {
+    "site": 415,
+    "ref": "F",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 419,
+    "ref": "G",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 425,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 428,
+    "ref": "D",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 429,
+    "ref": "I",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 431,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 432,
+    "ref": "G",
+    "n_carriers": 105,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 436,
+    "ref": "I",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 457,
+    "ref": "N",
+    "n_carriers": 103,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 464,
+    "ref": "V",
+    "n_carriers": 2,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 472,
+    "ref": "L",
+    "n_carriers": 2,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 491,
+    "ref": "A",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 494,
+    "ref": "S",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 495,
+    "ref": "N",
+    "n_carriers": 3,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 500,
+    "ref": "P",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 502,
+    "ref": "I",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 503,
+    "ref": "S",
+    "n_carriers": 25,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 505,
+    "ref": "R",
+    "n_carriers": 78,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 506,
+    "ref": "T",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 508,
+    "ref": "G",
+    "n_carriers": 102,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 511,
+    "ref": "E",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 512,
+    "ref": "K",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 518,
+    "ref": "L",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 520,
+    "ref": "P",
+    "n_carriers": 25,
+    "host_groups": [
+     "bat",
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 521,
+    "ref": "A",
+    "n_carriers": 104,
+    "host_groups": [
+     "bat",
+     "human",
+     "unknown"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 523,
+    "ref": "N",
+    "n_carriers": 1,
+    "host_groups": [
+     "human"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   },
+   {
+    "site": 532,
+    "ref": "V",
+    "n_carriers": 1,
+    "host_groups": [
+     "bat"
+    ],
+    "domain": "tail_disordered",
+    "location": "unmodeled"
+   }
+  ]
+ },
+ "stats": {
+  "L": {
+   "by_location": {
+    "unmodeled": 34,
+    "core": 91,
+    "surface": 57
+   },
+   "by_domain": {
+    "RdRp": 86,
+    "PRNTase": 28,
+    "CD": 23,
+    "MTase": 32,
+    "CTD": 13
+   }
+  },
+  "P": {
+   "by_location": {
+    "unmodeled": 137,
+    "surface": 9,
+    "core": 8
+   },
+   "by_domain": {
+    "NTD_disordered": 132,
+    "OD": 6,
+    "OD-XD_linker": 6,
+    "XD": 10
+   }
+  },
+  "N": {
+   "by_location": {
+    "unmodeled": 37,
+    "surface": 14,
+    "core": 17
+   },
+   "by_domain": {
+    "core": 41,
+    "tail_disordered": 27
+   }
+  }
+ }
+}
