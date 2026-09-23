@@ -1,0 +1,12 @@
+{
+ "rna_chains": [
+  "F",
+  "G"
+ ],
+ "n_rna_ref_points": 63,
+ "median_dist_variable": 28.05,
+ "median_dist_invariant": 24.4,
+ "mannwhitney_p_variable_farther": 0.002182854433418488,
+ "n_var": 148,
+ "n_inv": 1872
+}

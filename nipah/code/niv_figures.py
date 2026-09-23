@@ -103,3 +103,67 @@ ax.set_title(f"L substitutions vs year (Spearman rho={t['spearman_rho']:.2f}, p=
 ax.set_xlabel('collection year'); ax.set_ylabel('n substitutions vs ref (L)')
 plt.tight_layout(); plt.savefig(f'{FIG}/fig6_temporal.png', dpi=200); plt.close()
 print('figures done:', os.listdir(FIG))
+
+# ---- additional figures (v2) ----
+g5 = json.load(open(os.path.join(RES,'g5_rna_distance.json')))
+dpr = json.load(open(os.path.join(RES,'g5_L_rna_dist_per_res.json')))
+var_L = {r['site'] for r in struct['proteins']['L']}
+dv = [v for k,v in dpr.items() if int(k) in var_L]
+di = [v for k,v in dpr.items() if int(k) not in var_L]
+fig, ax = plt.subplots(figsize=(7,4))
+ax.hist([di, dv], bins=40, label=['invariant','variable'], color=['#4C72B0','#C44E52'], alpha=0.8)
+ax.set_xlabel('CA distance to bound RNA (A, 9GJU chains F/G)'); ax.set_ylabel('residues')
+ax.legend(); ax.set_title(f"L residues vs RNA distance (variable farther, p={g5['mannwhitney_p_variable_farther']:.2g})")
+plt.tight_layout(); plt.savefig(f'{FIG}/fig8_rna_distance.png', dpi=200); plt.close()
+
+# fig9: N (4CO6) + P OD (9GJU B) CA scatters
+import warnings; warnings.filterwarnings('ignore')
+from Bio.PDB import MMCIFParser
+p_ = MMCIFParser(QUIET=True)
+s4 = p_.get_structure('x', os.path.join(HERE,'..','data','structures','4CO6.cif'))
+caN = {r.id[1]: r['CA'].coord for r in s4[0]['A'] if r.id[0]==' ' and 'CA' in r}
+varN = {r['site']: r['n_carriers'] for r in struct['proteins']['N']}
+s9 = p_.get_structure('y', os.path.join(HERE,'..','data','structures','9GJU.cif'))
+caP = {r.id[1]: r['CA'].coord for r in s9[0]['B'] if r.id[0]==' ' and 'CA' in r}
+varP = {r['site']: r['n_carriers'] for r in struct['proteins']['P']}
+fig = plt.figure(figsize=(12,5))
+for i,(ca,var,t) in enumerate([(caN,varN,'NiV N core (4CO6)'),(caP,varP,'NiV P OD+XD (9GJU chain B)')]):
+    ax = fig.add_subplot(1,2,i+1,projection='3d')
+    xs=[c[0] for c in ca.values()]; ys=[c[1] for c in ca.values()]; zs=[c[2] for c in ca.values()]
+    cs=['#d62728' if s_ in var else '#4C72B0' for s_ in ca]
+    ss=[8+3*min(var.get(s_,0),15) if s_ in var else 4 for s_ in ca]
+    ax.scatter(xs,ys,zs,c=cs,s=ss,alpha=0.6,linewidths=0)
+    ax.set_title(f'{t} - red = variable', fontsize=9); ax.set_axis_off(); ax.view_init(elev=15,azim=45)
+plt.tight_layout(); plt.savefig(f'{FIG}/fig9_N_P_3d.png', dpi=180); plt.close()
+
+# fig10: lineage distance histogram + host composition
+import re
+from collections import Counter, defaultdict
+alts = defaultdict(dict)
+for s_ in spec['proteins']['L']['sites']:
+    for alt, lst in s_['alts'].items():
+        for a in lst: alts[a['acc']][s_['site']] = alt
+sites_all = sorted({s for a in alts.values() for s in a})
+dref = {a: sum(1 for k in sites_all if k not in alts[a]) for a in alts}
+# careful: alts only stores alt calls; distance = n sites where genome has an alt
+dref = {a: len(alts[a]) for a in alts}
+fig, axes = plt.subplots(1,2,figsize=(11,3.6))
+hmap = {x['accession']: x['host'] for x in spec['genomes']}
+byhost = defaultdict(list)
+for a,d in dref.items(): byhost[hmap.get(a,'unknown')].append(d)
+axes[0].hist([byhost.get('human',[]), byhost.get('bat',[])], bins=25, label=['human','bat'], color=['#C44E52','#55A868'], alpha=0.8)
+axes[0].legend(); axes[0].set_xlabel('L variable-site alt count vs reference'); axes[0].set_ylabel('genomes')
+axes[0].set_title('Lineage distance from reference by host')
+cc = Counter()
+for x in spec['genomes']:
+    c = str(meta[x['accession']]['country']).split(':')[0]
+    cc[(c, x['host'])] += 1
+tops = [c for c,_ in Counter({c:sum(v for (c2,_),v in cc.items() if c2==c) for c,_ in cc}).most_common(6)]
+widths = {h:[cc.get((c,h),0) for c in tops] for h in ('human','bat','pig','other','unknown')}
+bot = [0]*len(tops)
+for h,c in zip(('human','bat','pig','other','unknown'),('#C44E52','#55A868','#8172B3','#937860','#999999')):
+    axes[1].bar(tops, widths[h], bottom=bot, label=h, color=c)
+    bot=[b+w for b,w in zip(bot,widths[h])]
+axes[1].legend(fontsize=7); axes[1].set_title('Genomes by country and host'); axes[1].tick_params(axis='x', rotation=30)
+plt.tight_layout(); plt.savefig(f'{FIG}/fig10_lineage_geo.png', dpi=200); plt.close()
+print('v2 figures done')

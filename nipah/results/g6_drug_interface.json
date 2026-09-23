@@ -1,0 +1,157 @@
+{
+ "interfaces": {
+  "suramin_interface_L": {
+   "residues": [
+    {
+     "protein": "L",
+     "site": 291,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "L",
+     "site": 542,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "L",
+     "site": 551,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "L",
+     "site": 724,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "L",
+     "site": 833,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "L",
+     "site": 893,
+     "status": "INVARIANT"
+    }
+   ],
+   "invariant": 6,
+   "total": 6
+  },
+  "GHP88309_pocket_L": {
+   "residues": [
+    {
+     "protein": "L",
+     "site": 1165,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "L",
+     "site": 922,
+     "status": "INVARIANT"
+    }
+   ],
+   "invariant": 2,
+   "total": 2
+  },
+  "P_L_contact_P": {
+   "residues": [
+    {
+     "protein": "P",
+     "site": 576,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "P",
+     "site": 578,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "P",
+     "site": 580,
+     "status": "INVARIANT"
+    }
+   ],
+   "invariant": 3,
+   "total": 3
+  },
+  "P_L_contact_L": {
+   "residues": [
+    {
+     "protein": "L",
+     "site": 387,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "L",
+     "site": 385,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "L",
+     "site": 384,
+     "status": "INVARIANT"
+    }
+   ],
+   "invariant": 3,
+   "total": 3
+  },
+  "P_XD_helix_a1_P": {
+   "residues": [
+    {
+     "protein": "P",
+     "site": 657,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "P",
+     "site": 660,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "P",
+     "site": 662,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "P",
+     "site": 669,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "P",
+     "site": 670,
+     "status": "INVARIANT"
+    },
+    {
+     "protein": "P",
+     "site": 671,
+     "status": "INVARIANT"
+    }
+   ],
+   "invariant": 6,
+   "total": 6
+  }
+ },
+ "substitution_chemistry": {
+  "L": {
+   "n_substitutions": 3706,
+   "mean_grantham": 56.13653534808419,
+   "median_grantham": 29.0,
+   "frac_conservative_lt60": 0.708041014570966,
+   "frac_radical_ge100": 0.11683756071235833
+  },
+  "P": {
+   "n_substitutions": 6318,
+   "mean_grantham": 65.93399810066477,
+   "median_grantham": 64.0,
+   "frac_conservative_lt60": 0.46961063627730293,
+   "frac_radical_ge100": 0.12187401076289965
+  },
+  "N": {
+   "n_substitutions": 926,
+   "mean_grantham": 58.923326133909285,
+   "median_grantham": 58.0,
+   "frac_conservative_lt60": 0.6047516198704104,
+   "frac_radical_ge100": 0.12742980561555076
+  }
+ }
+}
