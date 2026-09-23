@@ -1,0 +1,323 @@
+{
+  "landmarks": [
+    {
+      "gene": "L",
+      "name": "RdRp catalytic domain",
+      "kind": "region",
+      "source": "UniProt P13179",
+      "start": 588,
+      "end": 774,
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "RdRp motif C GDN",
+      "kind": "motif",
+      "source": "UniProt P13179 / NNS-virus canon",
+      "found_pos": 703,
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "Capping domain",
+      "kind": "region",
+      "source": "UniProt P13179",
+      "start": 856,
+      "end": 1324,
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "PRNTase domain",
+      "kind": "region",
+      "source": "UniProt P13179",
+      "start": 1071,
+      "end": 1321,
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "priming-capping loop",
+      "kind": "region",
+      "source": "UniProt P13179",
+      "start": 1142,
+      "end": 1179,
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "HR motif His (PRNTase nucleophile)",
+      "kind": "residue",
+      "source": "Ogino 2010 doi:10.1099/vir.0.019307-0; UniProt P13179 active site",
+      "expected_pos": 1217,
+      "expected_aa": "H",
+      "actual_aa": "H",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "HR motif Arg",
+      "kind": "residue",
+      "source": "Ogino 2010",
+      "expected_pos": 1218,
+      "expected_aa": "R",
+      "actual_aa": "R",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "Connector domain",
+      "kind": "region",
+      "source": "UniProt P13179",
+      "start": 1348,
+      "end": 1547,
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "MTase domain",
+      "kind": "region",
+      "source": "UniProt P13179",
+      "start": 1629,
+      "end": 1826,
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "MTase K (cat)",
+      "kind": "residue",
+      "source": "UniProt P13179 active site",
+      "expected_pos": 1640,
+      "expected_aa": "K",
+      "actual_aa": "K",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "MTase D (cat)",
+      "kind": "residue",
+      "source": "UniProt P13179 active site",
+      "expected_pos": 1751,
+      "expected_aa": "D",
+      "actual_aa": "D",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "MTase K (cat)",
+      "kind": "residue",
+      "source": "UniProt P13179 active site",
+      "expected_pos": 1784,
+      "expected_aa": "K",
+      "actual_aa": "K",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "MTase E (cat)",
+      "kind": "residue",
+      "source": "UniProt P13179 active site",
+      "expected_pos": 1822,
+      "expected_aa": "E",
+      "actual_aa": "E",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "L-P interaction 694",
+      "kind": "residue",
+      "source": "UniProt P13179",
+      "expected_pos": 694,
+      "expected_aa": null,
+      "actual_aa": "N",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "L-P interaction 1409",
+      "kind": "residue",
+      "source": "UniProt P13179",
+      "expected_pos": 1409,
+      "expected_aa": null,
+      "actual_aa": "R",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "L-P interaction 2007",
+      "kind": "residue",
+      "source": "UniProt P13179",
+      "expected_pos": 2007,
+      "expected_aa": null,
+      "actual_aa": "K",
+      "recovered": true
+    },
+    {
+      "gene": "L",
+      "name": "L-P interaction 2080",
+      "kind": "residue",
+      "source": "UniProt P13179",
+      "expected_pos": 2080,
+      "expected_aa": null,
+      "actual_aa": "V",
+      "recovered": true
+    },
+    {
+      "gene": "P",
+      "name": "W135 dimerization",
+      "kind": "residue",
+      "source": "RSC Adv 2015 doi:10.1039/c5ra20863g",
+      "expected_pos": 135,
+      "expected_aa": "W",
+      "actual_aa": "W",
+      "recovered": true
+    },
+    {
+      "gene": "P",
+      "name": "disordered region 1",
+      "kind": "region",
+      "source": "UniProt E3T2G5",
+      "start": 24,
+      "end": 47,
+      "recovered": true
+    },
+    {
+      "gene": "P",
+      "name": "acidic region",
+      "kind": "region",
+      "source": "UniProt E3T2G5",
+      "start": 55,
+      "end": 69,
+      "recovered": true
+    },
+    {
+      "gene": "P",
+      "name": "disordered region 3",
+      "kind": "region",
+      "source": "UniProt E3T2G5",
+      "start": 171,
+      "end": 209,
+      "recovered": true
+    },
+    {
+      "gene": "N",
+      "name": "N0-P interaction region",
+      "kind": "region",
+      "source": "Mondal 2012 doi:10.1371/journal.pone.0034623",
+      "start": 1,
+      "end": 180,
+      "recovered": true
+    },
+    {
+      "gene": "N",
+      "name": "N-RNA-P interaction region",
+      "kind": "region",
+      "source": "Mondal 2012",
+      "start": 320,
+      "end": 390,
+      "recovered": true
+    },
+    {
+      "gene": "N",
+      "name": "oligomerization region",
+      "kind": "region",
+      "source": "Mondal 2012",
+      "start": 180,
+      "end": 264,
+      "recovered": true
+    },
+    {
+      "gene": "N",
+      "name": "disorder 117-125",
+      "kind": "region",
+      "source": "Sci Rep 2021 doi:10.1038/s41598-021-92581-6",
+      "start": 117,
+      "end": 125,
+      "recovered": true
+    },
+    {
+      "gene": "N",
+      "name": "disorder 355-371",
+      "kind": "region",
+      "source": "Sci Rep 2021",
+      "start": 355,
+      "end": 371,
+      "recovered": true
+    }
+  ],
+  "gdn_pos": 703,
+  "invariance": [
+    {
+      "gene": "L",
+      "pos": 1217,
+      "ref_aa": "H",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "L",
+      "pos": 1218,
+      "ref_aa": "R",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "L",
+      "pos": 1640,
+      "ref_aa": "K",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "L",
+      "pos": 1751,
+      "ref_aa": "D",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "L",
+      "pos": 1784,
+      "ref_aa": "K",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "L",
+      "pos": 1822,
+      "ref_aa": "E",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "P",
+      "pos": 135,
+      "ref_aa": "W",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "L",
+      "pos": 703,
+      "ref_aa": "G",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "L",
+      "pos": 704,
+      "ref_aa": "D",
+      "invariant": true,
+      "variants": {}
+    },
+    {
+      "gene": "L",
+      "pos": 705,
+      "ref_aa": "N",
+      "invariant": true,
+      "variants": {}
+    }
+  ],
+  "gate_landmarks": true,
+  "gate_invariance": true
+}

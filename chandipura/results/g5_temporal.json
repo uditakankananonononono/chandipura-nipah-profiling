@@ -1,0 +1,85 @@
+{
+  "N": [
+    {
+      "gene": "N",
+      "pos": 163,
+      "old": "A",
+      "new": "T",
+      "support": 4
+    }
+  ],
+  "P": [
+    {
+      "gene": "P",
+      "pos": 52,
+      "old": "E",
+      "new": "A",
+      "support": 4
+    },
+    {
+      "gene": "P",
+      "pos": 112,
+      "old": "E",
+      "new": "G",
+      "support": 3
+    }
+  ],
+  "L": [
+    {
+      "gene": "L",
+      "pos": 188,
+      "old": "K",
+      "new": "R",
+      "support": 4
+    },
+    {
+      "gene": "L",
+      "pos": 248,
+      "old": "S",
+      "new": "P",
+      "support": 4
+    },
+    {
+      "gene": "L",
+      "pos": 317,
+      "old": "A",
+      "new": "V",
+      "support": 3
+    },
+    {
+      "gene": "L",
+      "pos": 375,
+      "old": "N",
+      "new": "D",
+      "support": 4
+    },
+    {
+      "gene": "L",
+      "pos": 1062,
+      "old": "R",
+      "new": "K",
+      "support": 4
+    },
+    {
+      "gene": "L",
+      "pos": 1293,
+      "old": "I",
+      "new": "V",
+      "support": 4
+    },
+    {
+      "gene": "L",
+      "pos": 1794,
+      "old": "S",
+      "new": "I",
+      "support": 4
+    },
+    {
+      "gene": "L",
+      "pos": 2050,
+      "old": "S",
+      "new": "N",
+      "support": 4
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "N": {
+    "within_human": 99.81,
+    "within_vector": 97.66,
+    "human_vs_vector": 91.5
+  },
+  "P": {
+    "within_human": 99.25,
+    "within_vector": 94.14,
+    "human_vs_vector": 81.62
+  },
+  "L": {
+    "within_human": 99.32,
+    "within_vector": 96.87,
+    "human_vs_vector": 91.73
+  }
+}

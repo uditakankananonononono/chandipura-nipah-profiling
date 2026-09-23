@@ -1,0 +1,2578 @@
+{
+  "L_domain_identity": {
+    "RdRp": 83.9572192513369,
+    "Capping": 62.60869565217392,
+    "Connector": 63.5,
+    "MTase": 63.13131313131313
+  },
+  "L_var_sites": [
+    {
+      "pos": 9,
+      "entropy": 1.579,
+      "n_variant": 18,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 12,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 18,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 23,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 44,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 32.2,
+      "d_to_HR_His": 56.6
+    },
+    {
+      "pos": 52,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 44.4,
+      "d_to_HR_His": 67.4
+    },
+    {
+      "pos": 54,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 47.9,
+      "d_to_HR_His": 68.1
+    },
+    {
+      "pos": 55,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 49.1,
+      "d_to_HR_His": 71.0
+    },
+    {
+      "pos": 57,
+      "entropy": 0.999,
+      "n_variant": 13,
+      "mapped": true,
+      "d_to_GDN": 47.8,
+      "d_to_HR_His": 71.9
+    },
+    {
+      "pos": 58,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 46.2,
+      "d_to_HR_His": 70.5
+    },
+    {
+      "pos": 61,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 41.9,
+      "d_to_HR_His": 64.5
+    },
+    {
+      "pos": 67,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 45.3,
+      "d_to_HR_His": 60.4
+    },
+    {
+      "pos": 74,
+      "entropy": 0.9683,
+      "n_variant": 6,
+      "mapped": true,
+      "d_to_GDN": 50.6,
+      "d_to_HR_His": 64.8
+    },
+    {
+      "pos": 79,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 53.7,
+      "d_to_HR_His": 70.9
+    },
+    {
+      "pos": 80,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 49.9,
+      "d_to_HR_His": 68.2
+    },
+    {
+      "pos": 81,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 48.5,
+      "d_to_HR_His": 68.7
+    },
+    {
+      "pos": 86,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 36.5,
+      "d_to_HR_His": 62.3
+    },
+    {
+      "pos": 87,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 38.2,
+      "d_to_HR_His": 62.5
+    },
+    {
+      "pos": 98,
+      "entropy": 0.951,
+      "n_variant": 17,
+      "mapped": true,
+      "d_to_GDN": 42.6,
+      "d_to_HR_His": 58.5
+    },
+    {
+      "pos": 99,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 45.8,
+      "d_to_HR_His": 59.7
+    },
+    {
+      "pos": 100,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 48.2,
+      "d_to_HR_His": 62.4
+    },
+    {
+      "pos": 102,
+      "entropy": 2.049,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 50.2,
+      "d_to_HR_His": 59.7
+    },
+    {
+      "pos": 108,
+      "entropy": 1.086,
+      "n_variant": 19,
+      "mapped": true,
+      "d_to_GDN": 49.0,
+      "d_to_HR_His": 51.0
+    },
+    {
+      "pos": 111,
+      "entropy": 0.9911,
+      "n_variant": 12,
+      "mapped": true,
+      "d_to_GDN": 48.0,
+      "d_to_HR_His": 48.1
+    },
+    {
+      "pos": 115,
+      "entropy": 1.6982,
+      "n_variant": 19,
+      "mapped": true,
+      "d_to_GDN": 48.9,
+      "d_to_HR_His": 44.3
+    },
+    {
+      "pos": 118,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 47.4,
+      "d_to_HR_His": 40.6
+    },
+    {
+      "pos": 119,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 48.9,
+      "d_to_HR_His": 39.4
+    },
+    {
+      "pos": 125,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 45.4,
+      "d_to_HR_His": 34.0
+    },
+    {
+      "pos": 128,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 42.9,
+      "d_to_HR_His": 30.6
+    },
+    {
+      "pos": 136,
+      "entropy": 0.951,
+      "n_variant": 17,
+      "mapped": true,
+      "d_to_GDN": 45.8,
+      "d_to_HR_His": 38.4
+    },
+    {
+      "pos": 139,
+      "entropy": 1.1874,
+      "n_variant": 15,
+      "mapped": true,
+      "d_to_GDN": 45.5,
+      "d_to_HR_His": 43.7
+    },
+    {
+      "pos": 140,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 45.9,
+      "d_to_HR_His": 45.5
+    },
+    {
+      "pos": 144,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 45.3,
+      "d_to_HR_His": 54.2
+    },
+    {
+      "pos": 151,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 166,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 40.8,
+      "d_to_HR_His": 50.4
+    },
+    {
+      "pos": 172,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 50.7,
+      "d_to_HR_His": 51.2
+    },
+    {
+      "pos": 179,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 53.3,
+      "d_to_HR_His": 55.0
+    },
+    {
+      "pos": 184,
+      "entropy": 1.1247,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 51.7,
+      "d_to_HR_His": 57.8
+    },
+    {
+      "pos": 187,
+      "entropy": 0.7642,
+      "n_variant": 6,
+      "mapped": true,
+      "d_to_GDN": 54.7,
+      "d_to_HR_His": 62.5
+    },
+    {
+      "pos": 188,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 54.7,
+      "d_to_HR_His": 62.7
+    },
+    {
+      "pos": 190,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 55.9,
+      "d_to_HR_His": 66.5
+    },
+    {
+      "pos": 191,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 50.5,
+      "d_to_HR_His": 60.1
+    },
+    {
+      "pos": 193,
+      "entropy": 0.9751,
+      "n_variant": 11,
+      "mapped": true,
+      "d_to_GDN": 50.2,
+      "d_to_HR_His": 59.9
+    },
+    {
+      "pos": 209,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 49.2,
+      "d_to_HR_His": 65.7
+    },
+    {
+      "pos": 210,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 45.7,
+      "d_to_HR_His": 63.6
+    },
+    {
+      "pos": 214,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 42.6,
+      "d_to_HR_His": 61.6
+    },
+    {
+      "pos": 228,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 33.3,
+      "d_to_HR_His": 47.2
+    },
+    {
+      "pos": 247,
+      "entropy": 2.049,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 39.5,
+      "d_to_HR_His": 48.8
+    },
+    {
+      "pos": 248,
+      "entropy": 1.3992,
+      "n_variant": 19,
+      "mapped": true,
+      "d_to_GDN": 40.8,
+      "d_to_HR_His": 51.1
+    },
+    {
+      "pos": 249,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 40.2,
+      "d_to_HR_His": 53.1
+    },
+    {
+      "pos": 255,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 35.7,
+      "d_to_HR_His": 52.6
+    },
+    {
+      "pos": 256,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 36.4,
+      "d_to_HR_His": 55.6
+    },
+    {
+      "pos": 257,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 32.8,
+      "d_to_HR_His": 53.6
+    },
+    {
+      "pos": 260,
+      "entropy": 1.1247,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 34.6,
+      "d_to_HR_His": 57.6
+    },
+    {
+      "pos": 262,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 34.2,
+      "d_to_HR_His": 56.6
+    },
+    {
+      "pos": 263,
+      "entropy": 0.951,
+      "n_variant": 10,
+      "mapped": true,
+      "d_to_GDN": 36.4,
+      "d_to_HR_His": 60.2
+    },
+    {
+      "pos": 266,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 36.8,
+      "d_to_HR_His": 61.1
+    },
+    {
+      "pos": 267,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 37.2,
+      "d_to_HR_His": 63.6
+    },
+    {
+      "pos": 274,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 24.3,
+      "d_to_HR_His": 55.2
+    },
+    {
+      "pos": 293,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 31.7,
+      "d_to_HR_His": 50.9
+    },
+    {
+      "pos": 297,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 33.1,
+      "d_to_HR_His": 55.0
+    },
+    {
+      "pos": 298,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 29.6,
+      "d_to_HR_His": 53.2
+    },
+    {
+      "pos": 300,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 27.5,
+      "d_to_HR_His": 55.2
+    },
+    {
+      "pos": 306,
+      "entropy": 0.8256,
+      "n_variant": 7,
+      "mapped": true,
+      "d_to_GDN": 26.1,
+      "d_to_HR_His": 58.5
+    },
+    {
+      "pos": 310,
+      "entropy": 1.2924,
+      "n_variant": 19,
+      "mapped": true,
+      "d_to_GDN": 27.7,
+      "d_to_HR_His": 61.0
+    },
+    {
+      "pos": 313,
+      "entropy": 1.4466,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 31.3,
+      "d_to_HR_His": 63.3
+    },
+    {
+      "pos": 316,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 33.1,
+      "d_to_HR_His": 63.9
+    },
+    {
+      "pos": 317,
+      "entropy": 1.76,
+      "n_variant": 16,
+      "mapped": true,
+      "d_to_GDN": 34.8,
+      "d_to_HR_His": 66.7
+    },
+    {
+      "pos": 320,
+      "entropy": 1.086,
+      "n_variant": 19,
+      "mapped": true,
+      "d_to_GDN": 35.6,
+      "d_to_HR_His": 64.2
+    },
+    {
+      "pos": 323,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 32.9,
+      "d_to_HR_His": 61.0
+    },
+    {
+      "pos": 327,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 33.0,
+      "d_to_HR_His": 58.1
+    },
+    {
+      "pos": 331,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 34.2,
+      "d_to_HR_His": 55.3
+    },
+    {
+      "pos": 333,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 33.9,
+      "d_to_HR_His": 51.2
+    },
+    {
+      "pos": 363,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 21.2,
+      "d_to_HR_His": 55.8
+    },
+    {
+      "pos": 374,
+      "entropy": 1.3516,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 22.0,
+      "d_to_HR_His": 54.8
+    },
+    {
+      "pos": 375,
+      "entropy": 1.7468,
+      "n_variant": 19,
+      "mapped": true,
+      "d_to_GDN": 23.3,
+      "d_to_HR_His": 54.8
+    },
+    {
+      "pos": 402,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 34.3,
+      "d_to_HR_His": 46.5
+    },
+    {
+      "pos": 408,
+      "entropy": 1.5407,
+      "n_variant": 21,
+      "mapped": true,
+      "d_to_GDN": 42.3,
+      "d_to_HR_His": 57.0
+    },
+    {
+      "pos": 409,
+      "entropy": 1.0811,
+      "n_variant": 7,
+      "mapped": true,
+      "d_to_GDN": 41.7,
+      "d_to_HR_His": 58.2
+    },
+    {
+      "pos": 419,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 37.0,
+      "d_to_HR_His": 42.4
+    },
+    {
+      "pos": 469,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 37.5,
+      "d_to_HR_His": 57.5
+    },
+    {
+      "pos": 472,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 39.4,
+      "d_to_HR_His": 61.4
+    },
+    {
+      "pos": 477,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 35.9,
+      "d_to_HR_His": 56.0
+    },
+    {
+      "pos": 501,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 29.1,
+      "d_to_HR_His": 43.3
+    },
+    {
+      "pos": 503,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 25.9,
+      "d_to_HR_His": 44.8
+    },
+    {
+      "pos": 510,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 29.4,
+      "d_to_HR_His": 53.1
+    },
+    {
+      "pos": 537,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 24.5,
+      "d_to_HR_His": 42.0
+    },
+    {
+      "pos": 583,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 32.9,
+      "d_to_HR_His": 46.5
+    },
+    {
+      "pos": 586,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 32.1,
+      "d_to_HR_His": 47.8
+    },
+    {
+      "pos": 613,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 20.4,
+      "d_to_HR_His": 44.8
+    },
+    {
+      "pos": 617,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 23.8,
+      "d_to_HR_His": 41.9
+    },
+    {
+      "pos": 649,
+      "entropy": 0.5033,
+      "n_variant": 3,
+      "mapped": true,
+      "d_to_GDN": 37.2,
+      "d_to_HR_His": 64.2
+    },
+    {
+      "pos": 652,
+      "entropy": 1.1542,
+      "n_variant": 11,
+      "mapped": true,
+      "d_to_GDN": 32.3,
+      "d_to_HR_His": 59.1
+    },
+    {
+      "pos": 658,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 33.8,
+      "d_to_HR_His": 65.8
+    },
+    {
+      "pos": 717,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 39.7,
+      "d_to_HR_His": 56.3
+    },
+    {
+      "pos": 719,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 42.6,
+      "d_to_HR_His": 60.8
+    },
+    {
+      "pos": 721,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 40.1,
+      "d_to_HR_His": 61.9
+    },
+    {
+      "pos": 728,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 30.6,
+      "d_to_HR_His": 56.9
+    },
+    {
+      "pos": 736,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 22.7,
+      "d_to_HR_His": 54.0
+    },
+    {
+      "pos": 738,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 17.5,
+      "d_to_HR_His": 50.3
+    },
+    {
+      "pos": 739,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 19.6,
+      "d_to_HR_His": 53.7
+    },
+    {
+      "pos": 740,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 19.3,
+      "d_to_HR_His": 52.6
+    },
+    {
+      "pos": 747,
+      "entropy": 0.7642,
+      "n_variant": 6,
+      "mapped": true,
+      "d_to_GDN": 18.4,
+      "d_to_HR_His": 54.4
+    },
+    {
+      "pos": 819,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 33.0,
+      "d_to_HR_His": 28.9
+    },
+    {
+      "pos": 838,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 44.9,
+      "d_to_HR_His": 41.3
+    },
+    {
+      "pos": 846,
+      "entropy": 1.1915,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 47.7,
+      "d_to_HR_His": 45.4
+    },
+    {
+      "pos": 849,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 51.4,
+      "d_to_HR_His": 45.5
+    },
+    {
+      "pos": 852,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 55.8,
+      "d_to_HR_His": 45.0
+    },
+    {
+      "pos": 853,
+      "entropy": 1.579,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 57.6,
+      "d_to_HR_His": 45.3
+    },
+    {
+      "pos": 854,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 54.8,
+      "d_to_HR_His": 42.6
+    },
+    {
+      "pos": 855,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 52.4,
+      "d_to_HR_His": 39.9
+    },
+    {
+      "pos": 857,
+      "entropy": 0.9751,
+      "n_variant": 16,
+      "mapped": true,
+      "d_to_GDN": 53.3,
+      "d_to_HR_His": 38.9
+    },
+    {
+      "pos": 858,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 51.1,
+      "d_to_HR_His": 39.4
+    },
+    {
+      "pos": 859,
+      "entropy": 1.585,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 52.2,
+      "d_to_HR_His": 41.6
+    },
+    {
+      "pos": 861,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 50.8,
+      "d_to_HR_His": 37.4
+    },
+    {
+      "pos": 865,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 45.3,
+      "d_to_HR_His": 31.7
+    },
+    {
+      "pos": 903,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 47.1,
+      "d_to_HR_His": 25.0
+    },
+    {
+      "pos": 905,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 51.3,
+      "d_to_HR_His": 28.9
+    },
+    {
+      "pos": 906,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 51.0,
+      "d_to_HR_His": 30.9
+    },
+    {
+      "pos": 909,
+      "entropy": 0.825,
+      "n_variant": 5,
+      "mapped": true,
+      "d_to_GDN": 56.0,
+      "d_to_HR_His": 37.5
+    },
+    {
+      "pos": 911,
+      "entropy": 1.8753,
+      "n_variant": 18,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 917,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 49.8,
+      "d_to_HR_His": 27.6
+    },
+    {
+      "pos": 924,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 52.1,
+      "d_to_HR_His": 26.3
+    },
+    {
+      "pos": 927,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 54.6,
+      "d_to_HR_His": 26.5
+    },
+    {
+      "pos": 966,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 43.0,
+      "d_to_HR_His": 38.6
+    },
+    {
+      "pos": 969,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 42.7,
+      "d_to_HR_His": 42.3
+    },
+    {
+      "pos": 978,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 38.4,
+      "d_to_HR_His": 29.8
+    },
+    {
+      "pos": 1043,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 44.7,
+      "d_to_HR_His": 38.8
+    },
+    {
+      "pos": 1046,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 43.6,
+      "d_to_HR_His": 37.1
+    },
+    {
+      "pos": 1058,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 52.9,
+      "d_to_HR_His": 34.2
+    },
+    {
+      "pos": 1060,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 53.9,
+      "d_to_HR_His": 35.5
+    },
+    {
+      "pos": 1061,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 57.2,
+      "d_to_HR_His": 36.9
+    },
+    {
+      "pos": 1062,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 56.7,
+      "d_to_HR_His": 34.1
+    },
+    {
+      "pos": 1063,
+      "entropy": 1.9153,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 56.2,
+      "d_to_HR_His": 34.3
+    },
+    {
+      "pos": 1065,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 59.7,
+      "d_to_HR_His": 34.2
+    },
+    {
+      "pos": 1068,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 55.0,
+      "d_to_HR_His": 27.0
+    },
+    {
+      "pos": 1070,
+      "entropy": 1.8753,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 53.8,
+      "d_to_HR_His": 23.4
+    },
+    {
+      "pos": 1074,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 50.4,
+      "d_to_HR_His": 16.4
+    },
+    {
+      "pos": 1080,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 48.0,
+      "d_to_HR_His": 15.4
+    },
+    {
+      "pos": 1081,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 51.4,
+      "d_to_HR_His": 17.2
+    },
+    {
+      "pos": 1082,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 52.9,
+      "d_to_HR_His": 20.5
+    },
+    {
+      "pos": 1097,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 42.3,
+      "d_to_HR_His": 19.5
+    },
+    {
+      "pos": 1102,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 45.8,
+      "d_to_HR_His": 26.3
+    },
+    {
+      "pos": 1104,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 48.6,
+      "d_to_HR_His": 30.4
+    },
+    {
+      "pos": 1106,
+      "entropy": 0.7642,
+      "n_variant": 6,
+      "mapped": true,
+      "d_to_GDN": 50.1,
+      "d_to_HR_His": 34.6
+    },
+    {
+      "pos": 1109,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 56.1,
+      "d_to_HR_His": 37.7
+    },
+    {
+      "pos": 1117,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 53.7,
+      "d_to_HR_His": 28.5
+    },
+    {
+      "pos": 1125,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 39.9,
+      "d_to_HR_His": 33.5
+    },
+    {
+      "pos": 1130,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 38.0,
+      "d_to_HR_His": 39.2
+    },
+    {
+      "pos": 1131,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 35.9,
+      "d_to_HR_His": 40.8
+    },
+    {
+      "pos": 1133,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 29.3,
+      "d_to_HR_His": 38.2
+    },
+    {
+      "pos": 1135,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 29.5,
+      "d_to_HR_His": 39.5
+    },
+    {
+      "pos": 1183,
+      "entropy": 1.4466,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 53.7,
+      "d_to_HR_His": 24.1
+    },
+    {
+      "pos": 1188,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 48.8,
+      "d_to_HR_His": 23.2
+    },
+    {
+      "pos": 1196,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 43.1,
+      "d_to_HR_His": 27.8
+    },
+    {
+      "pos": 1273,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 41.7,
+      "d_to_HR_His": 31.8
+    },
+    {
+      "pos": 1275,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 39.2,
+      "d_to_HR_His": 35.3
+    },
+    {
+      "pos": 1287,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 48.4,
+      "d_to_HR_His": 21.6
+    },
+    {
+      "pos": 1288,
+      "entropy": 1.9842,
+      "n_variant": 19,
+      "mapped": true,
+      "d_to_GDN": 50.2,
+      "d_to_HR_His": 23.2
+    },
+    {
+      "pos": 1290,
+      "entropy": 1.1247,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 51.6,
+      "d_to_HR_His": 20.3
+    },
+    {
+      "pos": 1293,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 48.1,
+      "d_to_HR_His": 14.8
+    },
+    {
+      "pos": 1297,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 50.1,
+      "d_to_HR_His": 12.6
+    },
+    {
+      "pos": 1308,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 49.3,
+      "d_to_HR_His": 27.3
+    },
+    {
+      "pos": 1309,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 46.3,
+      "d_to_HR_His": 27.0
+    },
+    {
+      "pos": 1317,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 36.1,
+      "d_to_HR_His": 33.9
+    },
+    {
+      "pos": 1324,
+      "entropy": 1.3743,
+      "n_variant": 17,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 1334,
+      "entropy": 0.5033,
+      "n_variant": 3,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 1336,
+      "entropy": 0.5033,
+      "n_variant": 3,
+      "mapped": true,
+      "d_to_GDN": 51.7,
+      "d_to_HR_His": 27.7
+    },
+    {
+      "pos": 1341,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 56.6,
+      "d_to_HR_His": 27.5
+    },
+    {
+      "pos": 1342,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 59.5,
+      "d_to_HR_His": 31.3
+    },
+    {
+      "pos": 1412,
+      "entropy": 0.951,
+      "n_variant": 10,
+      "mapped": true,
+      "d_to_GDN": 45.7,
+      "d_to_HR_His": 49.9
+    },
+    {
+      "pos": 1435,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 35.1,
+      "d_to_HR_His": 34.8
+    },
+    {
+      "pos": 1450,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 52.6,
+      "d_to_HR_His": 37.7
+    },
+    {
+      "pos": 1520,
+      "entropy": 0.951,
+      "n_variant": 10,
+      "mapped": true,
+      "d_to_GDN": 52.7,
+      "d_to_HR_His": 44.9
+    },
+    {
+      "pos": 1526,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 54.9,
+      "d_to_HR_His": 53.9
+    },
+    {
+      "pos": 1549,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 37.7,
+      "d_to_HR_His": 33.2
+    },
+    {
+      "pos": 1550,
+      "entropy": 0.9911,
+      "n_variant": 15,
+      "mapped": true,
+      "d_to_GDN": 41.4,
+      "d_to_HR_His": 34.2
+    },
+    {
+      "pos": 1565,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 48.6,
+      "d_to_HR_His": 24.6
+    },
+    {
+      "pos": 1587,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": false,
+      "d_to_GDN": null,
+      "d_to_HR_His": null
+    },
+    {
+      "pos": 1589,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 68.2,
+      "d_to_HR_His": 54.8
+    },
+    {
+      "pos": 1592,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 71.3,
+      "d_to_HR_His": 61.8
+    },
+    {
+      "pos": 1605,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 75.9,
+      "d_to_HR_His": 75.3
+    },
+    {
+      "pos": 1609,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 75.1,
+      "d_to_HR_His": 78.5
+    },
+    {
+      "pos": 1611,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 72.4,
+      "d_to_HR_His": 78.5
+    },
+    {
+      "pos": 1613,
+      "entropy": 1.6203,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 69.6,
+      "d_to_HR_His": 76.9
+    },
+    {
+      "pos": 1616,
+      "entropy": 1.173,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 62.5,
+      "d_to_HR_His": 71.2
+    },
+    {
+      "pos": 1625,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 60.7,
+      "d_to_HR_His": 63.3
+    },
+    {
+      "pos": 1646,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 73.0,
+      "d_to_HR_His": 66.2
+    },
+    {
+      "pos": 1649,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 76.0,
+      "d_to_HR_His": 68.3
+    },
+    {
+      "pos": 1658,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 56.0,
+      "d_to_HR_His": 49.6
+    },
+    {
+      "pos": 1672,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 68.2,
+      "d_to_HR_His": 57.3
+    },
+    {
+      "pos": 1676,
+      "entropy": 1.2538,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 68.3,
+      "d_to_HR_His": 53.9
+    },
+    {
+      "pos": 1678,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 62.7,
+      "d_to_HR_His": 49.8
+    },
+    {
+      "pos": 1679,
+      "entropy": 0.5033,
+      "n_variant": 3,
+      "mapped": true,
+      "d_to_GDN": 59.8,
+      "d_to_HR_His": 47.8
+    },
+    {
+      "pos": 1694,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 40.2,
+      "d_to_HR_His": 26.5
+    },
+    {
+      "pos": 1706,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 60.1,
+      "d_to_HR_His": 44.6
+    },
+    {
+      "pos": 1710,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 61.7,
+      "d_to_HR_His": 43.8
+    },
+    {
+      "pos": 1731,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 57.7,
+      "d_to_HR_His": 48.9
+    },
+    {
+      "pos": 1739,
+      "entropy": 1.1874,
+      "n_variant": 13,
+      "mapped": true,
+      "d_to_GDN": 66.3,
+      "d_to_HR_His": 50.2
+    },
+    {
+      "pos": 1740,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 65.1,
+      "d_to_HR_His": 47.3
+    },
+    {
+      "pos": 1748,
+      "entropy": 0.9751,
+      "n_variant": 16,
+      "mapped": true,
+      "d_to_GDN": 63.9,
+      "d_to_HR_His": 56.2
+    },
+    {
+      "pos": 1758,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 51.7,
+      "d_to_HR_His": 55.9
+    },
+    {
+      "pos": 1759,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 51.0,
+      "d_to_HR_His": 53.2
+    },
+    {
+      "pos": 1762,
+      "entropy": 1.2932,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 54.7,
+      "d_to_HR_His": 54.7
+    },
+    {
+      "pos": 1765,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 59.6,
+      "d_to_HR_His": 57.7
+    },
+    {
+      "pos": 1767,
+      "entropy": 1.1542,
+      "n_variant": 11,
+      "mapped": true,
+      "d_to_GDN": 61.1,
+      "d_to_HR_His": 56.3
+    },
+    {
+      "pos": 1769,
+      "entropy": 1.2487,
+      "n_variant": 9,
+      "mapped": true,
+      "d_to_GDN": 63.6,
+      "d_to_HR_His": 57.7
+    },
+    {
+      "pos": 1771,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 65.6,
+      "d_to_HR_His": 58.0
+    },
+    {
+      "pos": 1774,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 66.2,
+      "d_to_HR_His": 55.5
+    },
+    {
+      "pos": 1777,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 74.9,
+      "d_to_HR_His": 65.1
+    },
+    {
+      "pos": 1778,
+      "entropy": 0.951,
+      "n_variant": 10,
+      "mapped": true,
+      "d_to_GDN": 75.5,
+      "d_to_HR_His": 65.9
+    },
+    {
+      "pos": 1792,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 59.1,
+      "d_to_HR_His": 67.0
+    },
+    {
+      "pos": 1794,
+      "entropy": 1.5955,
+      "n_variant": 19,
+      "mapped": true,
+      "d_to_GDN": 62.1,
+      "d_to_HR_His": 67.8
+    },
+    {
+      "pos": 1795,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 61.7,
+      "d_to_HR_His": 65.3
+    },
+    {
+      "pos": 1798,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_GDN": 66.0,
+      "d_to_HR_His": 66.7
+    },
+    {
+      "pos": 1807,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 75.3,
+      "d_to_HR_His": 71.0
+    },
+    {
+      "pos": 1808,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 72.2,
+      "d_to_HR_His": 69.4
+    },
+    {
+      "pos": 1811,
+      "entropy": 0.951,
+      "n_variant": 10,
+      "mapped": true,
+      "d_to_GDN": 68.4,
+      "d_to_HR_His": 67.7
+    },
+    {
+      "pos": 1828,
+      "entropy": 0.951,
+      "n_variant": 17,
+      "mapped": true,
+      "d_to_GDN": 72.9,
+      "d_to_HR_His": 66.7
+    },
+    {
+      "pos": 1832,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 76.8,
+      "d_to_HR_His": 69.4
+    },
+    {
+      "pos": 1836,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 76.4,
+      "d_to_HR_His": 74.7
+    },
+    {
+      "pos": 1838,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 72.9,
+      "d_to_HR_His": 74.0
+    },
+    {
+      "pos": 1842,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 75.6,
+      "d_to_HR_His": 79.9
+    },
+    {
+      "pos": 1849,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 70.3,
+      "d_to_HR_His": 76.1
+    },
+    {
+      "pos": 1850,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 71.1,
+      "d_to_HR_His": 75.3
+    },
+    {
+      "pos": 1852,
+      "entropy": 0.6052,
+      "n_variant": 23,
+      "mapped": true,
+      "d_to_GDN": 65.7,
+      "d_to_HR_His": 70.5
+    },
+    {
+      "pos": 1869,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 70.5,
+      "d_to_HR_His": 69.8
+    },
+    {
+      "pos": 1874,
+      "entropy": 0.8767,
+      "n_variant": 8,
+      "mapped": true,
+      "d_to_GDN": 68.2,
+      "d_to_HR_His": 61.3
+    },
+    {
+      "pos": 1878,
+      "entropy": 1.3516,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 62.1,
+      "d_to_HR_His": 53.1
+    },
+    {
+      "pos": 1881,
+      "entropy": 0.7254,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 57.9,
+      "d_to_HR_His": 51.8
+    },
+    {
+      "pos": 1911,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 65.6,
+      "d_to_HR_His": 65.2
+    },
+    {
+      "pos": 1912,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 67.4,
+      "d_to_HR_His": 68.0
+    },
+    {
+      "pos": 1928,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 49.0,
+      "d_to_HR_His": 61.3
+    },
+    {
+      "pos": 1939,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 40.1,
+      "d_to_HR_His": 62.5
+    },
+    {
+      "pos": 1940,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 41.0,
+      "d_to_HR_His": 63.6
+    },
+    {
+      "pos": 1942,
+      "entropy": 0.7254,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 37.4,
+      "d_to_HR_His": 59.0
+    },
+    {
+      "pos": 1954,
+      "entropy": 0.9911,
+      "n_variant": 12,
+      "mapped": true,
+      "d_to_GDN": 48.3,
+      "d_to_HR_His": 58.3
+    },
+    {
+      "pos": 1963,
+      "entropy": 0.9751,
+      "n_variant": 16,
+      "mapped": true,
+      "d_to_GDN": 62.4,
+      "d_to_HR_His": 69.1
+    },
+    {
+      "pos": 1974,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 61.0,
+      "d_to_HR_His": 71.8
+    },
+    {
+      "pos": 1975,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 58.5,
+      "d_to_HR_His": 70.8
+    },
+    {
+      "pos": 1978,
+      "entropy": 1.8753,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 55.6,
+      "d_to_HR_His": 68.6
+    },
+    {
+      "pos": 1979,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 52.6,
+      "d_to_HR_His": 66.1
+    },
+    {
+      "pos": 1981,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 51.8,
+      "d_to_HR_His": 64.9
+    },
+    {
+      "pos": 1989,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 49.2,
+      "d_to_HR_His": 71.8
+    },
+    {
+      "pos": 1990,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 51.9,
+      "d_to_HR_His": 73.3
+    },
+    {
+      "pos": 1992,
+      "entropy": 1.2487,
+      "n_variant": 22,
+      "mapped": true,
+      "d_to_GDN": 49.5,
+      "d_to_HR_His": 70.0
+    },
+    {
+      "pos": 1993,
+      "entropy": 0.825,
+      "n_variant": 5,
+      "mapped": true,
+      "d_to_GDN": 47.6,
+      "d_to_HR_His": 69.7
+    },
+    {
+      "pos": 1996,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 48.8,
+      "d_to_HR_His": 67.6
+    },
+    {
+      "pos": 2001,
+      "entropy": 1.3604,
+      "n_variant": 11,
+      "mapped": true,
+      "d_to_GDN": 54.3,
+      "d_to_HR_His": 73.4
+    },
+    {
+      "pos": 2003,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 50.2,
+      "d_to_HR_His": 72.7
+    },
+    {
+      "pos": 2004,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 47.6,
+      "d_to_HR_His": 70.0
+    },
+    {
+      "pos": 2014,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 45.8,
+      "d_to_HR_His": 54.3
+    },
+    {
+      "pos": 2037,
+      "entropy": 0.999,
+      "n_variant": 13,
+      "mapped": true,
+      "d_to_GDN": 66.5,
+      "d_to_HR_His": 75.4
+    },
+    {
+      "pos": 2041,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 62.7,
+      "d_to_HR_His": 71.6
+    },
+    {
+      "pos": 2042,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 63.7,
+      "d_to_HR_His": 70.8
+    },
+    {
+      "pos": 2043,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 60.8,
+      "d_to_HR_His": 67.3
+    },
+    {
+      "pos": 2045,
+      "entropy": 0.825,
+      "n_variant": 5,
+      "mapped": true,
+      "d_to_GDN": 59.3,
+      "d_to_HR_His": 68.0
+    },
+    {
+      "pos": 2050,
+      "entropy": 1.4618,
+      "n_variant": 22,
+      "mapped": true,
+      "d_to_GDN": 57.2,
+      "d_to_HR_His": 70.1
+    },
+    {
+      "pos": 2052,
+      "entropy": 0.7642,
+      "n_variant": 6,
+      "mapped": true,
+      "d_to_GDN": 59.7,
+      "d_to_HR_His": 71.2
+    },
+    {
+      "pos": 2053,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 61.1,
+      "d_to_HR_His": 73.0
+    },
+    {
+      "pos": 2056,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_GDN": 56.7,
+      "d_to_HR_His": 70.7
+    },
+    {
+      "pos": 2057,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 58.8,
+      "d_to_HR_His": 73.8
+    },
+    {
+      "pos": 2058,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 57.5,
+      "d_to_HR_His": 74.5
+    },
+    {
+      "pos": 2062,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_GDN": 55.3,
+      "d_to_HR_His": 69.0
+    },
+    {
+      "pos": 2063,
+      "entropy": 0.951,
+      "n_variant": 10,
+      "mapped": true,
+      "d_to_GDN": 59.0,
+      "d_to_HR_His": 72.5
+    },
+    {
+      "pos": 2069,
+      "entropy": 0.7642,
+      "n_variant": 6,
+      "mapped": true,
+      "d_to_GDN": 59.7,
+      "d_to_HR_His": 75.6
+    },
+    {
+      "pos": 2072,
+      "entropy": 2.0235,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 55.1,
+      "d_to_HR_His": 73.0
+    },
+    {
+      "pos": 2081,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 29.4,
+      "d_to_HR_His": 49.3
+    },
+    {
+      "pos": 2083,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_GDN": 26.0,
+      "d_to_HR_His": 43.7
+    },
+    {
+      "pos": 2088,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_GDN": 27.0,
+      "d_to_HR_His": 30.1
+    }
+  ],
+  "N_var_sites": [
+    {
+      "pos": 2,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_RNA": 28.1
+    },
+    {
+      "pos": 4,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 28.0
+    },
+    {
+      "pos": 6,
+      "entropy": 0.9751,
+      "n_variant": 11,
+      "mapped": true,
+      "d_to_RNA": 26.1
+    },
+    {
+      "pos": 9,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 26.9
+    },
+    {
+      "pos": 29,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 16.5
+    },
+    {
+      "pos": 30,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 16.3
+    },
+    {
+      "pos": 35,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_RNA": 19.7
+    },
+    {
+      "pos": 37,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 19.8
+    },
+    {
+      "pos": 47,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 31.9
+    },
+    {
+      "pos": 48,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 30.5
+    },
+    {
+      "pos": 51,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 29.7
+    },
+    {
+      "pos": 58,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 27.1
+    },
+    {
+      "pos": 60,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 22.7
+    },
+    {
+      "pos": 64,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_RNA": 23.2
+    },
+    {
+      "pos": 66,
+      "entropy": 1.5305,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 20.7
+    },
+    {
+      "pos": 67,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 18.2
+    },
+    {
+      "pos": 69,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 23.2
+    },
+    {
+      "pos": 71,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 20.5
+    },
+    {
+      "pos": 76,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 22.2
+    },
+    {
+      "pos": 77,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 19.3
+    },
+    {
+      "pos": 79,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 19.9
+    },
+    {
+      "pos": 80,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_RNA": 17.6
+    },
+    {
+      "pos": 82,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 17.8
+    },
+    {
+      "pos": 94,
+      "entropy": 0.3809,
+      "n_variant": 2,
+      "mapped": true,
+      "d_to_RNA": 23.3
+    },
+    {
+      "pos": 95,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_RNA": 24.9
+    },
+    {
+      "pos": 101,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 23.9
+    },
+    {
+      "pos": 110,
+      "entropy": 0.951,
+      "n_variant": 10,
+      "mapped": true,
+      "d_to_RNA": 22.4
+    },
+    {
+      "pos": 114,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 24.5
+    },
+    {
+      "pos": 115,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_RNA": 26.6
+    },
+    {
+      "pos": 117,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 26.1
+    },
+    {
+      "pos": 118,
+      "entropy": 1.4278,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 26.9
+    },
+    {
+      "pos": 133,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 16.2
+    },
+    {
+      "pos": 140,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 12.9
+    },
+    {
+      "pos": 163,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 8.8
+    },
+    {
+      "pos": 167,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 12.8
+    },
+    {
+      "pos": 169,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 16.5
+    },
+    {
+      "pos": 187,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 9.5
+    },
+    {
+      "pos": 205,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 11.3
+    },
+    {
+      "pos": 210,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 10.4
+    },
+    {
+      "pos": 243,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 18.4
+    },
+    {
+      "pos": 282,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_RNA": 10.7
+    },
+    {
+      "pos": 283,
+      "entropy": 0.2285,
+      "n_variant": 1,
+      "mapped": true,
+      "d_to_RNA": 8.7
+    },
+    {
+      "pos": 321,
+      "entropy": 1.4466,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_RNA": 7.0
+    },
+    {
+      "pos": 339,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_RNA": 21.3
+    },
+    {
+      "pos": 354,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_RNA": 31.1
+    },
+    {
+      "pos": 360,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 40.5
+    },
+    {
+      "pos": 361,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 37.9
+    },
+    {
+      "pos": 364,
+      "entropy": 0.6052,
+      "n_variant": 23,
+      "mapped": true,
+      "d_to_RNA": 41.2
+    },
+    {
+      "pos": 365,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_RNA": 39.6
+    },
+    {
+      "pos": 366,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 42.3
+    },
+    {
+      "pos": 368,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 37.7
+    },
+    {
+      "pos": 375,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_RNA": 27.9
+    },
+    {
+      "pos": 386,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 34.8
+    },
+    {
+      "pos": 390,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_RNA": 28.6
+    },
+    {
+      "pos": 405,
+      "entropy": 0.6052,
+      "n_variant": 4,
+      "mapped": true,
+      "d_to_RNA": 14.4
+    },
+    {
+      "pos": 413,
+      "entropy": 0.9183,
+      "n_variant": 18,
+      "mapped": true,
+      "d_to_RNA": 10.5
+    },
+    {
+      "pos": 419,
+      "entropy": 0.999,
+      "n_variant": 14,
+      "mapped": true,
+      "d_to_RNA": 17.6
+    }
+  ],
+  "template_L_gdn_idx": 678,
+  "template_L_hr_idx": 1187,
+  "tdce": [
+    819,
+    978,
+    1658
+  ]
+}
