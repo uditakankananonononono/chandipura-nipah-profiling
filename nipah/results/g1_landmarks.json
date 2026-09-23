@@ -1,0 +1,223 @@
+{
+  "reference": "NC_002728.1",
+  "landmarks": [
+    {
+      "name": "L length 2244 aa (paramyxo L)",
+      "expected": "2244",
+      "found": 2244,
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "P length 709 aa",
+      "expected": "709",
+      "found": 709,
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "N length 532 aa",
+      "expected": "532",
+      "found": 532,
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "L GDNE catalytic motif C at 831-834 (PMC11885841)",
+      "expected": "831-834",
+      "found": [
+        [
+          831,
+          "GDNE"
+        ],
+        [
+          1309,
+          "GDNE"
+        ]
+      ],
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "L motif A catalytic Asp D722 (PMC11885841)",
+      "expected": "D at 722",
+      "found": "D",
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "L motif C catalytic loop 826-837 spans GDNE",
+      "expected": "loop contains GDNE",
+      "found": "AAIVQGDNESIA",
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "L MTase K-D-K-E tetrad K1821/D1940/K1976/E2013 (PMC11885841)",
+      "expected": "K/D/K/E at 1821/1940/1976/2013",
+      "found": [
+        [
+          1821,
+          "K"
+        ],
+        [
+          1940,
+          "D"
+        ],
+        [
+          1976,
+          "K"
+        ],
+        [
+          2013,
+          "E"
+        ]
+      ],
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "L MTase SAM-binding GxGxG 1843-1847 (PMC11885841)",
+      "expected": "G x G x G at 1843-1847",
+      "found": "GEGSG",
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "L PRNTase HR capping motif within 970-1452 (Ogino/Banerjee; PMC11615333)",
+      "expected": "H..R pair in PRNTase",
+      "found": [
+        [
+          1121,
+          "HEILDNSLTGAR"
+        ],
+        [
+          1203,
+          "HMWRELALGR"
+        ],
+        [
+          1265,
+          "HSSIR"
+        ],
+        [
+          1348,
+          "HRLR"
+        ]
+      ],
+      "recovered": true,
+      "detail": "4 candidate HR pairs"
+    },
+    {
+      "name": "L GHP-88309 resistance His H1165 (PMC11615333)",
+      "expected": "H at 1165",
+      "found": "H",
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "L GHP-88309 binding E922 (PMC11615333)",
+      "expected": "E at 922",
+      "found": "E",
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "P OD oligomerization region present (510-580; PMC11615333)",
+      "expected": "region exists",
+      "found": true,
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "P XD C-terminal domain 652-709 present (PMC11615333)",
+      "expected": "58-aa XD exists",
+      "found": "FVPMADDS...",
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "P XD helix-a1 L-binding residues D657/S660/D662/R669/T670/H671 (PMC11615333)",
+      "expected": "D/S/D/R/T/H",
+      "found": {
+        "657": "D",
+        "660": "S",
+        "662": "D",
+        "669": "R",
+        "670": "T",
+        "671": "H"
+      },
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "P-gene editing-site oligo motif within P CDS (Kulkarni 2009)",
+      "expected": "editing motif inside P CDS",
+      "found": [
+        [
+          "AAAAAGGG",
+          3618
+        ],
+        [
+          "GGGAAAAA",
+          4167
+        ]
+      ],
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "N measles-style conserved motif F-X4-Y-X4-S-X2-AMG verbatim in NiV N",
+      "expected": "unique match in N core",
+      "found": [],
+      "recovered": false,
+      "detail": "HONEST NEGATIVE if absent: sequence-exact motif not conserved in henipavirus N"
+    },
+    {
+      "name": "N N-terminal arm (N0-P chaperone region 1-50) present (4CO6)",
+      "expected": "region exists",
+      "found": true,
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "P N-terminal N0-binding peptide matches crystallized 4CO6 entity2 (P 1-50)",
+      "expected": "exact match to 4CO6 P peptide",
+      "found": true,
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "N core construct start matches 4CO6 entity1 at N residue 32-87",
+      "expected": "exact match",
+      "found": "TTKIRIFVPATNSPELRWELTLFALDVIRSPSAAESMKVGAAFTLISMYSERPGAL",
+      "recovered": true,
+      "detail": ""
+    },
+    {
+      "name": "P/V editing: shared N-terminal prefix ~406-407 aa (Kulkarni 2009 JVI)",
+      "expected": "400-415",
+      "found": 407,
+      "recovered": true,
+      "detail": "prefix 407 aa"
+    },
+    {
+      "name": "L domain order RdRp(831) < PRNTase(970-1452, HR/H1165) < MTase(1821-2013)",
+      "expected": "ordered",
+      "found": true,
+      "recovered": true,
+      "detail": ""
+    }
+  ],
+  "checks": [],
+  "protein_lengths": {
+    "L": 2244,
+    "P": 709,
+    "N": 532
+  },
+  "summary": {
+    "recovered": 20,
+    "total": 21,
+    "rate": 0.9523809523809523,
+    "gate_G1": true
+  }
+}
