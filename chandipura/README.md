@@ -30,3 +30,17 @@ UniProt P11211 only at R37K (documented in paper).
 identical RefSeq copy of GU212856.1 -> 27 analyzed: 5 human (India, 2003-2024),
 17 sandfly (Senegal 1992-97, Kenya 2016-17, Nigeria 1978), 1 hedgehog (Nigeria
 1966), 3 lab tdCE mutants + reference I653514 (1965).
+
+## Gate mapping status (2026-10-10)
+`results/g5_temporal.json`, `results/g6_pairwise.json` and
+`results/g7_n_rna_distance.json` are exploratory outputs that map to NO locked
+gate (the locked gates define G0-G4). They are excluded from locked-gate
+evidence unless an attested mapping is provided.
+
+## Chronology clarification (2026-10-10)
+Two early commits (gates 1aaa02a, results 2428be2) share an identical author
+timestamp after a history rewrite ("tree identical to 3564c95"). Equal author
+timestamps are not precedence proof. Gate precedence rests on the DAG
+parent-child order (the gates commit is the parent of the results commits)
+plus the gate-lock attestation recorded in the gates commit (original lock
+2026-09-23 13:29 IST, before any outcome data was inspected).
