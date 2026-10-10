@@ -1,8 +1,8 @@
 # NIV-STRUCT: Nipah virus L/P/N structural + mutation profiling
 
 Builder 5 slice of chandipura-nipah-profiling. Reference coordinate system:
-NC_002728.1 (NiV Malaysia 1999). The Chandipura slice (builder 4) is sealed
-and untouched.
+NC_002728.1 (NiV Malaysia 1999). The Chandipura slice (builder 4) is built and
+byte-verified; seal pending review (no seal artifact or tag exists yet).
 
 ## Layout
 - `LOCKED_GATES.md` - success gates locked 2026-09-23 18:50 IST, standalone
