@@ -15,7 +15,7 @@ Structural + mutation profiling of Chandipura and Nipah virus replication protei
 
 ## nipah slice
 - `nipah/LOCKED_GATES.md` - success gates locked 2026-09-23 before outcome data
-- `nipah/code/` - fetch_genomes.py (G0), niv_profile.py (G1), niv_spectrum.py (G2), niv_structure.py (G3), niv_stats.py (G4), niv_rna_distance.py (G5), niv_drug_interface.py (G6), niv_figures.py
+- `nipah/code/` - fetch_genomes.py (G0), niv_profile.py (G1), niv_spectrum.py (G2), niv_structure.py (G3), niv_stats.py (G4), niv_rna_distance.py (G5), niv_drug_interface.py (G6), niv_figures.py (G5/G6 are exploratory analyses written after the locked gates; they map to no locked gate and are excluded from locked-gate evidence)
 - `nipah/data/` - manifest.json (136 genomes, per-accession md5; bulk regenerable via code)
 - `nipah/results/` - g1-g6 JSON outputs, figures/, MANIFEST.sha256 (in nipah/)
 - `nipah/paper/` - 21-page research paper (PDF + generator)
