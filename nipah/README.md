@@ -34,3 +34,22 @@ byte-verified; seal pending review (no seal artifact or tag exists yet).
 6 excluded (5 without CDS, 1 unrecoverable L). Hosts: 81 human, 27 Pteropus,
 4 pig, 1 dog, 2 bat-unsp., 21 unknown. Ambiguous X/B/Z calls tracked
 separately, never counted as substitutions.
+
+## Erratum (2026-10-10)
+- The sentence "(builder 4's Chandipura slice is sealed and untouched)" in
+  nipah/LOCKED_GATES.md line 4 is superseded. The Chandipura slice is built
+  and byte-verified; seal pending review. LOCKED_GATES.md itself is a frozen
+  gate document and keeps its original text; this erratum carries the
+  correction.
+- Chronology note: the gates document commit 04ec61f and the G0/G1 outcome
+  commits (9be398b, 437020d) share the same author timestamp second
+  (2026-09-23 18:52:50 +0530); the gates text's "written ~18:50 IST" claim is
+  not corroborated by the stamp. Equal author timestamps are not ordering
+  evidence; precedence rests on DAG order plus the lock attestation only.
+
+## Unmapped exploratory analyses (no locked-gate credit)
+- G5 (niv_rna_distance.py, results/g5_rna_distance.json) and G6
+  (niv_drug_interface.py, results/g6_drug_interface.json) are exploratory
+  analyses written after the locked gates. They map to no locked gate in
+  LOCKED_GATES.md (which defines G0-G4) and are excluded from locked-gate
+  evidence.
