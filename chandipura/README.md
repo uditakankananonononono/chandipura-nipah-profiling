@@ -9,7 +9,7 @@ UniProt P11211 only at R37K (documented in paper).
 - `code/` - pipeline (Python 3.10; biopython, numpy, pandas, scipy, matplotlib)
 - `data/` - manifest.json (per-accession md5), payload_checksums.md5. Bulk
   genomes/structures are NOT committed; regenerate with the fetch steps below.
-- `results/` - g1-g6 JSON outputs, figures/
+- `results/` - g1_positive_control.json, g2_spectrum.json, g3_structure.json (locked-gate outputs), g5_temporal.json, g6_pairwise.json, g7_n_rna_distance.json (exploratory, unmapped), figures/
 - `paper/` - research paper PDF + generator
 
 ## Reproduce (fresh sandbox)
@@ -44,3 +44,12 @@ timestamps are not precedence proof. Gate precedence rests on the DAG
 parent-child order (the gates commit is the parent of the results commits)
 plus the gate-lock attestation recorded in the gates commit (original lock
 2026-09-23 13:29 IST, before any outcome data was inspected).
+
+
+## Chronology note (2026-10-10)
+The locked-gates commit 1aaa02a and the results commit 2428be2 share the same
+author timestamp second (2026-09-23 13:40:06 +0530), while the gates text says
+"written 13:29 IST"; the 13:29 claim is not corroborated by the stamp. Equal
+author timestamps are not ordering evidence. Precedence of gates over results
+rests on DAG order (1aaa02a is the parent of 2428be2) plus the lock attestation
+only.
