@@ -3,7 +3,7 @@
 Structural + mutation profiling of Chandipura and Nipah virus replication proteins.
 
 ## Slices
-- `chandipura/` - builder 4: Chandipura virus L/P/N structural + mutation profiling
+- `chandipura/` - builder 4: Chandipura virus L/P/N structural + mutation profiling (built, byte-verified 2026-10-10; seal/tag pending review)
 - `nipah/` - builder 5: Nipah virus L/P/N structural + mutation profiling (complete)
 
 ## chandipura slice
