@@ -1,4 +1,4 @@
-# Chandipura slice seal - 2026-10-10 (PROVISIONAL pending auditor delta verification)
+# Chandipura slice seal - 2026-10-10 (PROVISIONAL - auditor delta verification complete 2026-10-10; de-provisionalizing blocked: 10/25 payload checksums unverifiable from a fresh clone)
 
 Sealed commit: da9bf8e4dd7c560a8c18f2a39699640e652ab5b1
 Root manifest: MANIFEST.sha256 (sha256 of file: 1a5c9a8d6483154df843e905510d13ff5a43fdfb18c8f873a0c6b813ac3efce7, 22 entries, sha256sum -c clean)
@@ -18,3 +18,18 @@ Attestation artifacts: this SEAL.md and the tag seal-chandipura-2026-10-10 are a
 1. Tag timing/state, corrected: the annotated tag seal-chandipura-2026-10-10 (tag object 6f3af7ed0fc3e11484798a0583c7edb5a19b0be7, unsigned) already exists on the remote and points to fd4ef6838d1bde76ca001fdfa80c8246f5dfc40f, this record's own commit. It was pushed 2026-10-10 06:25 IST on a relayed report of auditor PASS, BEFORE the auditor delta verification this record requires - contradicting this record's earlier assertion that the tag is pushed only after that verification. The tag's existence does not finalize the seal; the seal remains PROVISIONAL until the auditor delta verification is completed and recorded.
 2. Fresh-clone verification limitation: chandipura/data/payload_checksums.md5 lists 25 payload entries. 10 are regenerable downloads not tracked in git - data/genomes/chpv_genomes.gb, data/genomes/chpv_genomes_raw.fasta, data/proteins/{G,L,M,N,P}.fasta, data/proteins/proteins.json, data/structures/{2GIC,6U1X}.cif - and cannot be verified from a fresh clone. All 15 git-committed entries verify OK at fd4ef68. Root MANIFEST.sha256 (22/22) and nipah/MANIFEST.sha256 (36/36) verify clean at fd4ef68.
 3. Nipah slice: remains NOT sealed. No nipah/SEAL.md exists, correctly, pending the Nipah slice's own review.
+
+## Auditor delta verification 2026-10-10 (complete; seal stays PROVISIONAL)
+
+Independent fresh-clone read-only verification completed 2026-10-10. Results:
+- SEAL.md record assertions: PASS.
+- Root MANIFEST.sha256: 22/22 PASS (file sha256 1a5c9a8d6483154df843e905510d13ff5a43fdfb18c8f873a0c6b813ac3efce7).
+- nipah/MANIFEST.sha256: 36/36 PASS (file sha256 5455586306b829c54637fe5c8ec9ab778e9211b4e345b70c2f350a150e8f12c6).
+- chandipura/data/payload_checksums.md5: exactly 15/25 verifiable from a fresh clone; the 10 untracked regenerable downloads confirmed absent from git, as disclosed above.
+- Tag: object 6f3af7ed -> fd4ef68 confirmed, unsigned.
+
+Auditor recommendation: do NOT de-provisionalize - 10/25 payload checksums remain unverifiable from a fresh clone. De-provisionalizing stays blocked. This seal remains PROVISIONAL.
+
+## Erratum 2026-10-10 (tag annotation correction)
+
+The previous tag annotation read "Auditor final PASS seal, chandipura slice, 2026-10-10" - it predated and materially contradicted this provisional record, and as an unsigned annotation it is not authenticated approval. The tag was re-created 2026-10-10 with the SAME target fd4ef6838d1bde76ca001fdfa80c8246f5dfc40f and the corrected annotation: "Provisional seal record, chandipura slice, 2026-10-10; record repairs and auditor delta verification in chandipura/SEAL.md; Nipah not sealed". The tag remains unsigned; the unsigned state is disclosed. The new tag object hash is recorded in the program ledger (SEAL-RECORD-REPAIR-20261010.md).
