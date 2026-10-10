@@ -1,7 +1,7 @@
 # NIV-STRUCT: Nipah virus L/P/N structural + mutation profiling
 ## Locked success gates (written 2026-09-23 ~18:50 IST, BEFORE any outcome data is inspected)
 Builder 5 slice of chandipura-nipah-profiling. Scope: Nipah virus only
-(builder 4's Chandipura slice is built and byte-verified; seal pending review).
+(builder 4's Chandipura slice is sealed and untouched).
 
 ## Research question
 Do Nipah virus replication proteins (L polymerase, P phosphoprotein,
